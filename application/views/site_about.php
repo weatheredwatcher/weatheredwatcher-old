@@ -15,7 +15,7 @@
 
 			<p>I work in PHP, Ruby on Rails, Ajax/JavaScript, Python and Clojure. I develop entirely on a mac with TextMate.</p>
 
-			<p>Over the years, I have worked for several start ups, including Lead Programmer for Leveraged Media, a Tech Company disguised as a Marketing Company disguised as a Tech company.</p>
+			<p>Over the years, I have worked for several start ups, including Lead Programmer for Leveraged Media, a Tech Company disguised as a Marketing Company disguised as a Tech company and most recently for Political Exchange, a Political Social Media Outlet.</p>
 
 			<p>I am currently freelancing as a Consultant here in Columbia, SC. I focus on building software infrastructures for start-ups, using FOSS in Health Care and teaching and training on FOSS.</p>
 
