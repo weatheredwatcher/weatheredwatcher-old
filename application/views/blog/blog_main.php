@@ -11,7 +11,7 @@
 	
 	<?=$entry->title; ?>
 	<?=$entry->entry; ?>
-	
+<?php endforeach; ?>
 
         <!-- /main -->
                 </div>
