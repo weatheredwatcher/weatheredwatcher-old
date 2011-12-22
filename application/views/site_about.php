@@ -4,7 +4,7 @@
 
         <!-- content -->
    <div id="content">
-
+<h2>About Me</h2>
         <!-- main -->
            <div id="main">
 			<p>I was born in Greensboro NC. When I was 12, my parents moved the entire family to Kazakhstan whereI became very active in the hacker community. Me and my friend Kostya Tayban started running BBS's from our homes and were for a time connected to the FidoNet.</p>
