@@ -9,6 +9,8 @@ class Blog extends CI_Controller {
 		
 	function index()
 	{
-	  $this->load->view('blog/blog_main');	
+		$query = $this->db->query("SELECT * FROM blog WHERE sort desc");
+		$data['entries'] = $query->result();
+	  $this->load->view('blog/blog_main', $data);	
 	}
 }

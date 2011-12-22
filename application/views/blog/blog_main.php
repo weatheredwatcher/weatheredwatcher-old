@@ -7,7 +7,11 @@
 
         <!-- main -->
            <div id="main">
-<%= yield %>
+<?php foreach($entries as $entry): ?>
+	
+	<?=$entry->title; ?>
+	<?=$entry->entry; ?>
+	
 
         <!-- /main -->
                 </div>
