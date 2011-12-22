@@ -9,7 +9,7 @@
            <div id="main">
 <?php foreach($entries as $entry): ?>
 	
-	<h2><?=$entry->title; ?></h2>
+	<h3><?=$entry->title; ?></h3>
 	<?=$entry->entry; ?>
 <?php endforeach; ?>
 
