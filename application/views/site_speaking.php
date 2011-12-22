@@ -7,7 +7,15 @@
 
         <!-- main -->
            <div id="main">
-<%= yield %>
+			<h3>Speaking</h3>
+
+			<p>I am available to speak at conferences and other events. Why would you want me to speak? I have over ten years experience in the Open Source world.  I am an active developer in the open source community and I believe in using open software to develop open standards.</p>
+
+			<h3>POSSCON</h3>
+
+			<p> In 2011 I was a speaker at POSSCON here in Columbia SC.  I gave a talk on using Open Source Software to Run you business.  I also gave a workshop on using various Open Source Software programs.</p>
+
+
 
         <!-- /main -->
                 </div>
