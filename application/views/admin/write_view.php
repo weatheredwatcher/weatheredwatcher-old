@@ -1,4 +1,4 @@
-<?php $this->load->view("_header.php");?>
+<?php $this->load->view("admin/_header.php");?>
 	<!-- Navigation -->
 	
 		<div class="navigation">
