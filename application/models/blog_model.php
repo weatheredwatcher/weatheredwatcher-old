@@ -21,16 +21,16 @@ class Blog_model extends CI_Model {
 		return $query->result();
 	}
 
-	    function insert_entry()
+	function insert_entry()
 	    {
 	        $this->title = $this->input->post('title'); 
 			$this->author = $this->input->post('author');
 	        $this->entry = $this->input->post('entry');
 	        
 
-	        $this->db->insert('Blog_model', $this);
+	        $this->db->insert('blog', $this);
 	    }
-
+ 
 	    function update_entry()
 	    {
 	       	$this->title = $this->input->post('title'); 
