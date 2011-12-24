@@ -28,7 +28,7 @@ class Blog_model extends CI_Model {
 	        $this->entry = $_POST['entry'];
 	        $this->timestamp   = time();
 
-	        $this->db->insert('blog', $this);
+	        $this->db->insert('Blog_model', $this);
 	    }
 
 	    function update_entry()
