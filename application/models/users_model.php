@@ -13,4 +13,13 @@ class Users_model extends CI_Model {
 	        $query = $this->db->get('users', 5);
 	        return $query->result();
 	    }
+	
+	function get_authors()
+	{
+		
+		$this->db->select('username');
+		$query = $this->db->get('users');
+		return $query->result();
+		
+	}
 }
