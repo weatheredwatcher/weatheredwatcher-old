@@ -26,7 +26,7 @@ class Blog_model extends CI_Model {
 	        $this->title = $this->input->post('title'); 
 			$this->author = $this->input->post('author');
 	        $this->entry = $this->input->post('entry');
-	        $this->timestamp = time();
+	        
 
 	        $this->db->insert('blog', $this);
 	    }
