@@ -44,7 +44,7 @@
 			</div>
 			
 	<!-- Form -->
-			
+
 				<div class="in forms">
 					<form id="form1" name="form1" method="post" action="">
 	
@@ -53,10 +53,9 @@
 					 
 	  				<p><strong>AUTHOR</strong><br>
 							<select name="date_end" class="box2">
-        					<option selected="selected"> Bruce Lee</option>
-							<option>Jackie Chan</option>
-        					<option>John Claude Van Damme</option>
-        					<option>Ben Johnson</option>
+        					<?php foreach($authors as $author):?>
+                             <option><?=$author->username?></option>
+							<?php endforeach;?>
 					  </select></p>
 					
 	  				<p><strong>STORY</strong><br>
