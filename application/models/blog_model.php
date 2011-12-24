@@ -9,7 +9,7 @@ class Blog_model extends CI_Model {
 		
 	function get_last_ten_entries()
 	    {
-	        $query = $this->db->get('entries', 10);
+	        $query = $this->db->get('blog', 10);
 	        return $query->result();
 	    }
 
@@ -19,7 +19,7 @@ class Blog_model extends CI_Model {
 	        $this->entry = $_POST['entry'];
 	        $this->timestamp   = time();
 
-	        $this->db->insert('entries', $this);
+	        $this->db->insert('blog', $this);
 	    }
 
 	    function update_entry()
@@ -28,7 +28,7 @@ class Blog_model extends CI_Model {
 	        $this->entry = $_POST['entry'];
 	        $this->timestamp    = time();
 
-	        $this->db->update('entries', $this, array('id' => $_POST['id']));
+	        $this->db->update('blog', $this, array('id' => $_POST['id']));
 	    }
 	
 }
