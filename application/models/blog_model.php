@@ -23,9 +23,9 @@ class Blog_model extends CI_Model {
 
 	    function insert_entry()
 	    {
-	        $this->title   = $_POST['title']; // please read the below note
-			$this->author = $_POST['author'];
-	        $this->entry = $_POST['entry'];
+	        $this->title = $this->input->post('title'); 
+			$this->author = $this->input->post('author');
+	        $this->entry = $this->input->post('entry');
 	        
 
 	        $this->db->insert('Blog_model', $this);
@@ -33,9 +33,9 @@ class Blog_model extends CI_Model {
 
 	    function update_entry()
 	    {
-	        $this->title   = $_POST['title'];
-			$this->author = $_POST['author'];
-	        $this->entry = $_POST['entry'];
+	       	$this->title = $this->input->post('title'); 
+			$this->author = $this->input->post('author');
+	        $this->entry = $this->input->post('entry');
 	        
 
 	        $this->db->update('blog', $this, array('id' => $_POST['id']));
