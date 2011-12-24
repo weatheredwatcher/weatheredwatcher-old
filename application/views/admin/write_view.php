@@ -34,11 +34,11 @@
 	
 			<div class="check_main">
 					
-				<div class="check">
-					<div class="good" style="display:none;"><img src="stylesheets/check.gif" alt="check" class="icon">Nice work <strong>Ninja Admin!</strong></div>
+				<div class="check" style="display:none;">
+					<div class="good"><img src="stylesheets/check.gif" alt="check" class="icon">Nice work <strong>Ninja Admin!</strong></div>
 				</div>
-				<div class="check">
-					<div class="bad" style="display:none;"><img src="stylesheets/x.gif" alt="check" class="icon">You need more training, please <a href="#">try again</a>.</div>
+				<div class="check" style="display:none;">
+					<div class="bad"><img src="stylesheets/x.gif" alt="check" class="icon">You need more training, please <a href="#">try again</a>.</div>
 				</div>
 				
 			</div>
