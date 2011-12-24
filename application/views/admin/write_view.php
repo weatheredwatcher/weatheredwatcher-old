@@ -46,7 +46,7 @@
 	<!-- Form -->
 
 				<div class="in forms">
-					<form id="entry_form" name="entry_form" method="post" action="admin/insert_page">
+					<form id="entry_form" name="entry_form" method="post" action="insert_page">
 	
       				<p><strong>TITLE</strong><br>
 					<input name="title" class="box" type="text"></p>
