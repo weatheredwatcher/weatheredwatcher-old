@@ -4,8 +4,8 @@
 		<div class="navigation">
 				<ul>
 					<li><?=anchor('admin/write', 'WRITE');?></li>
-					<li><?=anchor('admin/manage', 'MANAGE', 'class="active"');?></li>
-					<li><?=anchor('admin/settings', 'SETTINGS');?></li>
+					<li><?=anchor('admin/manage', 'MANAGE');?></li>
+					<li><?=anchor('admin/settings', 'SETTINGS', 'class="active"');?></li>
 					<li><?=anchor('admin/users', 'USERS');?></li>
 				</ul>
 			
