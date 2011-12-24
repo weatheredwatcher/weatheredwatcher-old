@@ -56,8 +56,8 @@
 					
 					<td><?=$entry->title;?></td>
 					<td><?=$entry->author;?></a></td>
-					<td><?=$entry->password;?></td>
-					<td><a href="/<?=$entry->id;?>">EDIT  </a><span class="v_line">| </span> <a href="#" class="delete">DELETE </a></td>
+					<td><?=$entry->timestamp;?></td>
+					<td><a href="manage/<?=$entry->id;?>">EDIT  </a><span class="v_line">| </span> <a href="#" class="delete">DELETE </a></td>
 				  </tr>
 				<?php endforeach; ?>
 				</tbody></table>
