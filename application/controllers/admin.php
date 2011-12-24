@@ -42,7 +42,7 @@ class Admin extends CI_Controller {
 	function settings()
 	{
 		
-		//custom page settings
+		$this->load->view('admin/settings_view');
 		
 	}
 	
