@@ -54,8 +54,6 @@
 				  <?php foreach($users as $user): ?>
 					<tr>
 					
-					
-				
 					<td><?=$user->username;?></td>
 					<td><a href="mailto:<?=$user->email;?>"><?=$user->email;?></a></td>
 					<td><?=$user->password;?></td>

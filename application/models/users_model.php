@@ -10,7 +10,7 @@ class Users_model extends CI_Model {
 	function get_users()
 	    {
 	        
-	        $query = $this->db->get('blog', 5);
+	        $query = $this->db->get('users', 5);
 	        return $query->result();
 	    }
 }
