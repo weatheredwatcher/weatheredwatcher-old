@@ -2,12 +2,12 @@
 	<!-- Navigation -->
 	
 		<div class="navigation">
-				<ul>
-					<li><a href="#" class="active">WRITE</a></li>
-					<li><a href="#">MANAGE</a></li>
-					<li><a href="#l">SETTINGS</a></li>
-					<li><a href="#">USERS</a></li>
-				</ul>
+					<ul>
+						<li><?=anchor('admin/write', 'WRITE', 'class="active"');?></li>
+						<li><?=anchor('admin/manage', 'MANAGE');?></li>
+						<li><?=anchor('admin/settings', 'SETTINGS');?></li>
+						<li><?=anchor('admin/users', 'USERS');?></li>
+					</ul>
 			
 				<div id="searchform">
 					<form method="get" action="">

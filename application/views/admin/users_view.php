@@ -3,10 +3,10 @@
 	
 		<div class="navigation">
 				<ul>
-					<li><a href="#">WRITE</a></li>
-					<li><a href="#">MANAGE</a></li>
-					<li><a href="#">SETTINGS</a></li>
-					<li><a href="#" class="active">USERS</a></li>
+					<li><?=anchor('admin/write', 'WRITE');?></li>
+					<li><?=anchor('admin/manage', 'MANAGE');?></li>
+					<li><?=anchor('admin/settings', 'SETTINGS');?></li>
+					<li><?=anchor('admin/users', 'USERS', 'class="active"');?></li>
 				</ul>
 			
 				<div id="searchform">
