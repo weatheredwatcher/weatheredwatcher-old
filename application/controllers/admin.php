@@ -35,7 +35,7 @@ class Admin extends CI_Controller {
 		
 		$this->load->model('Blog_model', 'blog');
 		$data['entries'] = $this->blog->get_last_ten_entries();
-		$this->load->view('admin/manage');
+		$this->load->view('admin/manage', $data);
 		
 	}
 	
