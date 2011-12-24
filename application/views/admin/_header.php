@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<title>Ninja Admin</title>
+<title>WeatheredWatcher :: Admin</title>
 <?= link_tag('stylesheets/admin.css'); ?>
 </head>
 
