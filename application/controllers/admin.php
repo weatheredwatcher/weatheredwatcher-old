@@ -15,7 +15,9 @@ class Admin extends CI_Controller {
 	
 	function write()
 	{
-		$this->load->view('admin/write_view');
+		$this->load->model('Users_model', 'users');
+		$data['authors'] = $this->users->get_authors();
+		$this->load->view('admin/write_view', $data);
 	}
 	
 	function manage()
