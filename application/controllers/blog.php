@@ -11,7 +11,7 @@ class Blog extends CI_Controller {
 	{
 		$this->load->model('Blog_model', 'blog');
 		//$query = $this->db->query("SELECT * FROM blog ORDER BY timestamp DESC");
-		$data['entries'] = $this->Blog->get_last_ten_entries();
+		$data['entries'] = $this->blog->get_last_ten_entries();
 		 //$query->result();
 	  $this->load->view('blog/blog_main', $data);	
 	}
