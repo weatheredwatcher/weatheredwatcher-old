@@ -25,7 +25,7 @@
 			<!-- Intro -->
 
 						<div class="in author">
-							<h2>Write a New Post</h2>
+							<h2>User Management</h2>
 							<p></p>
 						</div>
 
@@ -48,33 +48,20 @@
 				  <tbody><tr style="background-color: rgb(217, 216, 216); font-size: 14px;">
 					<td width="179"><strong>USER</strong></td>
 					<td width="184"><strong>EMAIL</strong></td>
-					<td width="273"><strong>SOMETHING</strong></td>
+					<td width="273"><strong>PASSWORD</strong></td>
 					<td width="132"><strong>DO IT</strong></td>
 				  </tr>
-				  <tr class="gray">
-					<td>Bruce Lee </td>
-					<td><a href="#">bruce@kungfu.com</a></td>
-					<td>Loriem ipsum dolor sit amet </td>
+				  <?php foreach($users as $user): ?>
+					<tr>
+					
+					
+				
+					<td><?=$user->username;?></td>
+					<td><a href="mailto:<?=$user->email;?>"><?=$user->email;?></a></td>
+					<td><?=$user->password;?></td>
 					<td><a href="#">EDIT  </a><span class="v_line">| </span> <a href="#" class="delete">DELETE </a></td>
 				  </tr>
-				  <tr>
-					<td>Jackie Chan</td>
-					<td><a href="#">thechan@yahoo.com</a></td>
-					<td>Loriem ipsum dolor sit amet </td>
-					<td><a href="#">EDIT  </a><span class="v_line">| </span> <a href="#" class="delete">DELETE </a></td>
-				  </tr>
-				  <tr class="gray">
-					<td>John Claude Van Damme</td>
-					<td><a href="#">vandamme@gmail.com</a></td>
-					<td>Loriem ipsum dolor sit amet </td>
-					<td><a href="#">EDIT  </a><span class="v_line">| </span> <a href="#" class="delete">DELETE </a></td>
-				  </tr>
-				   <tr>
-					<td>Ben Johnson </td>
-					<td><a href="#">ben@kungu.com</a></td>
-					<td>Loriem ipsum dolor sit amet </td>
-					<td><a href="#">EDIT  </a><span class="v_line">| </span> <a href="#" class="delete">DELETE </a></td>
-				  </tr>
+				<?php endforeach; ?>
 				</tbody></table>
 
 			</div>
