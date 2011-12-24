@@ -20,10 +20,22 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/write_view', $data);
 	}
 	
+	function insert_page()
+	{
+		$this->load->model('Blog_model', 'blog');
+		
+	
+		$this->blog->insert_entry();
+		redirect('admin/manage', 'refresh');
+		
+	}
+	
 	function manage()
 	{
 		
-		//code to manage the blog/pages
+		$this->load->model('Blog_model', 'blog');
+		$data['entries'] = $this->blog->get_last_ten_entries();
+		$this->load->view('admin/manage');
 		
 	}
 	

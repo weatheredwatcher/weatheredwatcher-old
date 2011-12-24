@@ -13,10 +13,18 @@ class Blog_model extends CI_Model {
 	        $query = $this->db->get('blog', 10);
 	        return $query->result();
 	    }
+	
+	function get_titles()
+	{
+		$this->db->select('id, title');
+		$query = $this->db->get('blog');
+		return $query->result();
+	}
 
 	    function insert_entry()
 	    {
 	        $this->title   = $_POST['title']; // please read the below note
+			$this->author = $_POST['author'];
 	        $this->entry = $_POST['entry'];
 	        $this->timestamp   = time();
 
@@ -26,10 +34,13 @@ class Blog_model extends CI_Model {
 	    function update_entry()
 	    {
 	        $this->title   = $_POST['title'];
+			$this->author = $_POST['author'];
 	        $this->entry = $_POST['entry'];
 	        $this->timestamp    = time();
 
 	        $this->db->update('blog', $this, array('id' => $_POST['id']));
 	    }
+	
+	
 	
 }
