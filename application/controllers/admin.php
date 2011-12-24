@@ -35,7 +35,7 @@ class Admin extends CI_Controller {
 	function users()
 	{
 		
-		//adding users form 
+		$this->load->view('admin/users_view') 
 		
 	}
 	
