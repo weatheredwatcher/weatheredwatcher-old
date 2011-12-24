@@ -22,8 +22,11 @@ class Admin extends CI_Controller {
 	
 	function insert_page()
 	{
+		echo ('1');
 		$this->load->model('Blog_model', 'blog');
+		echo('2');
 		$this->blog->insert_entry();
+		echo('3');
 		redirect('admin/manage', 'refresh');
 		
 	}
