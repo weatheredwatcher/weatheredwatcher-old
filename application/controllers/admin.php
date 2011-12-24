@@ -34,8 +34,9 @@ class Admin extends CI_Controller {
 	
 	function users()
 	{
-		
-		$this->load->view('admin/users_view');
+		$this->load->model('Users_model', 'users');
+		$data['users'] = $this->users->get_users();
+		$this->load->view('admin/users_view', $data);
 		
 	}
 	
