@@ -10,6 +10,8 @@ class Blog_model extends CI_Model {
 	function get_last_ten_entries()
 	    {
 	        $query = $this->db->get('blog', 10);
+	       
+			$this->db->order_by('timestamp', 'desc';)
 	        return $query->result();
 	    }
 
