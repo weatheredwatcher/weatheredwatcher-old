@@ -15,7 +15,7 @@ class Admin extends CI_Controller {
 	
 	function write()
 	{
-		//todo need to add code to add blog entry/pages here
+		$this->load->view('admin/write_view');
 	}
 	
 	function manage()
