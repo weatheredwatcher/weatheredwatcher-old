@@ -22,12 +22,15 @@ class Admin extends CI_Controller {
 	
 	function insert_page()
 	{
-		echo ('1');
+		
 		$this->load->model('Blog_model', 'blog');
-		echo('2');
-		$this->blog->insert_entry();
-		echo('3');
-		redirect('admin/manage', 'refresh');
+		//$this->blog->insert_entry();
+		//redirect('admin/manage', 'refresh');
+		$query = $this->blog->get_last_ten_entries();
+		foreach($query as $row){
+			
+			$row->title;
+		}
 		
 	}
 	
