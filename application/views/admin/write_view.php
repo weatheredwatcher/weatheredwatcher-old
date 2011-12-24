@@ -49,17 +49,17 @@
 					<form id="form1" name="form1" method="post" action="admin/insert_page">
 	
       				<p><strong>TITLE</strong><br>
-					<input name="name" class="box" type="text"></p>
+					<input name="title" class="box" type="text"></p>
 					 
 	  				<p><strong>AUTHOR</strong><br>
-							<select name="date_end" class="box2">
+							<select name="author" class="box2">
         					<?php foreach($authors as $author):?>
                              <option><?=$author->username?></option>
 							<?php endforeach;?>
 					  </select></p>
 					
 	  				<p><strong>STORY</strong><br>
-					<textarea name="mes" rows="5" cols="30" class="box"></textarea></p> 
+					<textarea name="entry" rows="5" cols="30" class="box"></textarea></p> 
 
 					<p><input name="submit" id="submit" tabindex="5" class="com_btn" value="SUBMIT" type="submit"></p>
 					</form>
