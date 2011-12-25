@@ -25,7 +25,7 @@
 			<!-- Intro -->
 
 						<div class="in author">
-							<h2>User Management</h2>
+							<h2>Page Management</h2>
 							<p></p>
 						</div>
 
