@@ -17,6 +17,7 @@
 
 			It is released under the GPL.
 			</p>
+			<h3></h3><p>This site is also testing grounds for my very own base cms in Codeigniter.
 
         <!-- /main -->
                 </div>

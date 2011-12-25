@@ -60,7 +60,7 @@ $attributes = array('class' => 'login', 'id' => 'login_form');
 			<!-- Intro -->
 
 						<div class="in author">
-							<h2>Settings</h2>
+							<h2>Login:</h2>
 							<p></p>
 						</div>
 
