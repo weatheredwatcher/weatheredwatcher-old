@@ -14,14 +14,11 @@ class Admin extends CI_Controller {
 		{
 		     $this->load->view('admin/index_view');
 		}
-		
-			
+		else
+		{
 			$this->load->view('admin/manage');
-			
+		}
 	
-	}
-	
-		
 	}
 	
 	function auth()
