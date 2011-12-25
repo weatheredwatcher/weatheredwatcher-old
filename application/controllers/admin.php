@@ -68,12 +68,5 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/users_view', $data);
 		
 	}
-	
-	
-	function auth()
-	{
-		//TODO this is where we will authorize the access to the admin page.  This is going to create a pop up that will be utillized to authenticate the user.  We will use sessions data to do this
-		
-		
-	}
+
 }
