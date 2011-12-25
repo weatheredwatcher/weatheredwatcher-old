@@ -9,8 +9,26 @@ class Admin extends CI_Controller {
 		
 	function index()
 	{
-	//todo will need to add authentication code here.
+	
+		if ($this->session->userdata('logged_in') == FALSE)
+		{
+		     $this->load->view('admin/index_view');
+		}
 		
+			
+			$this->load->view('admin/manage');
+			
+	
+	}
+	
+		
+	}
+	
+	function auth()
+	{
+		
+			$this->load->model('Users_model', 'users');
+			$this->users->auth();
 	}
 	
 	function write()
