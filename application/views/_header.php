@@ -38,7 +38,7 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$("#twitter").getTwitter({
-					userName: "jquery",
+					userName: "davidduggins",
 					numTweets: 5,
 					loaderText: "Loading tweets...",
 					slideIn: true,
