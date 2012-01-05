@@ -11,6 +11,10 @@
 <title>WeatheredWatcher</title>
 
  <?= link_tag('stylesheets/coolblue.css'); ?>
+  <?= link_tag('stylesheets/jquery.twitter.css'); ?>
+  <script src="http://www.weatheredwatcher.com/javascript/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://www.weatheredwatcher.com/javascript/jquery.twitter.js" type="text/javascript" charset="utf-8"></script>
+   
 
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
 <meta name="author" content="David Duggins, based on a design by Erwin Aligam - styleshout.com" />
@@ -31,6 +35,22 @@
   })();
 
 </script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#twitter").getTwitter({
+					userName: "jquery",
+					numTweets: 5,
+					loaderText: "Loading tweets...",
+					slideIn: true,
+					slideDuration: 750,
+					showHeading: true,
+					headingText: "Latest Tweets",
+					showProfileLink: true,
+					showTimestamp: true
+				});
+			});
+		</script>
+
 <meta name="google-site-verification" content="4o679b7thPnyi9byPY6rkFqLmeT5xphjsdZWlikn6hU" />
 </head>
 
