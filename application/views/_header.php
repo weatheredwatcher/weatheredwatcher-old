@@ -39,7 +39,7 @@
 			$(document).ready(function() {
 				$("#twitter").getTwitter({
 					userName: "davidduggins",
-					numTweets: 5,
+					numTweets: 3,
 					loaderText: "Loading tweets...",
 					slideIn: true,
 					slideDuration: 750,
