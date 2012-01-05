@@ -12,7 +12,7 @@
 
  <?= link_tag('stylesheets/coolblue.css'); ?>
   <?= link_tag('stylesheets/jquery.twitter.css'); ?>
-  <script src="http://www.weatheredwatcher.com/javascripts/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://www.weatheredwatcher.com/javascripts/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="http://www.weatheredwatcher.com/javascripts/jquery.twitter.js" type="text/javascript" charset="utf-8"></script>
    
 
