@@ -1,5 +1,5 @@
 .twitted {
-	width: 16em;
+	width: 21em;
 	margin-bottom: 1.5em;
 	border: 1px solid #888;
 }
@@ -54,7 +54,7 @@
 }
 
 .twitted p.profileLink {
-	display: block;
+	display: none;
 	margin: 0;
 	padding: 0.3em 1em;
 	color: #fff;
