@@ -44,7 +44,7 @@ When it comes to web-sites, I prefer to hand code my HTML. I am currently develo
                             </ul>
 
                     </div>
-
+<div id="twitter"></div>
      <div class="popular">
 
                             
