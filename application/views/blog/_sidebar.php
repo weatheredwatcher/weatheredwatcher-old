@@ -8,7 +8,7 @@
 
 <!-- sidebar -->
 <?
-	$grav_url = "http://www.gravatar.com/avatar/" . md5("davidduggins@me.com") . "?d=" . urlencode("http://www.weatheredwatcher.com/images/DavidDuggins.jpg") . "&s=" . $size;
+	$grav_url = "http://www.gravatar.com/avatar/" . md5("davidduggins@me.com") . "?d=" . urlencode("http://www.weatheredwatcher.com/images/DavidDuggins.jpg") . "&s=40";
 	
 ?>
             <div id="sidebar">
