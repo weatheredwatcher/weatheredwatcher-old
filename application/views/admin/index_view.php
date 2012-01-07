@@ -67,7 +67,7 @@ $attributes = array('class' => 'login', 'id' => 'login_form');
 						<div class="line"></div>
 	<!-- Login Form -->
 	
-						<?=form_open('auth', $attributes);?>
+						<?=form_open('admin/auth', $attributes);?>
 						<?=form_fieldset('Login');?>
 						<?=form_label('Username', 'login');?>
 						<?=form_input($login);?> <br />
