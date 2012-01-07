@@ -65,12 +65,8 @@ $attributes = array('class' => 'login', 'id' => 'login_form');
 						</div>
 
 						<div class="line"></div>
-	<!-- Checks -->
+	<!-- Login Form -->
 	
-			<div class="check_main">
-					
-				<div class="check">
-					<div class="good">
 						<?=form_open('auth', $attributes);?>
 						<?=form_fieldset('Login');?>
 						<?=form_label('Username', 'login');?>
@@ -81,14 +77,6 @@ $attributes = array('class' => 'login', 'id' => 'login_form');
 						<?=form_submit('submit', 'Submit');?>
 						<?=form_close();?>
 						
-					</div>
-				</div>
-				
-				
-			</div>
-			
-		
-				
 				
 	
 	
