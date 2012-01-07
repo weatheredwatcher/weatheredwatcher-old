@@ -40,7 +40,8 @@ class Users_model extends CI_Model {
 			               );
 
 			$this->session->set_userdata($loguser);
-		
+		}
+	}
 		
 	}
 }
