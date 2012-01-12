@@ -22,13 +22,6 @@ class Admin extends CI_Controller {
 	
 	}
 	
-	function auth()
-	{
-		$this->easyauth->set;
-		$this->easyauth->check;
-		redirect('admin/manage', 'refresh');
-	
-	}
 	
 	function write()
 	{
