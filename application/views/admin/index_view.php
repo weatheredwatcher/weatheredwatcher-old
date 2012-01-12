@@ -32,7 +32,7 @@
 						<div class="line"></div>
 	<!-- Login Form -->
 	
-						<form method='post' action='/admin'>
+						<form method='post' action='/admin/auth'>
 						Username<br />
 						<input type='text' name='login[username]' value='' /><br /><br />
 						Password<br />
