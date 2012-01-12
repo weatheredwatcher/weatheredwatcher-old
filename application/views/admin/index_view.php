@@ -67,16 +67,13 @@ $attributes = array('class' => 'login', 'id' => 'login_form');
 						<div class="line"></div>
 	<!-- Login Form -->
 	
-						<?=form_open('admin/auth', $attributes);?>
-						<?=form_fieldset('Login');?>
-						<?=form_label('Username', 'login');?>
-						<?=form_input($login);?> <br />
-						<?=form_label('Password', 'password');?>
-						<?=form_input($password);?><br />
-						<?=form_fieldset_close();?>
-						<?=form_submit('submit', 'Submit');?>
-						<?=form_close();?>
-						
+						<form method='post' action='/admin/auth'>
+						Username<br />
+						<input type='text' name='login[username]' value='' /><br /><br />
+						Password<br />
+						<input type='password' name='login[password]' value='' /><br /><br />
+						<input type='submit' value='Login'>
+						</form>
 				
 	
 	
