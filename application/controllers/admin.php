@@ -27,7 +27,9 @@ class Admin extends CI_Controller {
 	{
 		if($this->easyauth->connected == true):
 		
-		     $this->load->view('admin/write_view');
+			$this->load->model('Users_model', 'users');
+			$data['authors'] = $this->users->get_authors();
+			$this->load->view('admin/write_view', $data);
 		
 		else:
 		
@@ -42,16 +44,9 @@ class Admin extends CI_Controller {
 	function insert_page()
 	{
 		
-		if($this->easyauth->connected == true):
-		
-		     $this->load->view('admin/manage');
-		
-		else:
-		
-			$this->load->view('admin/index_view');
-		
-		endif;
-	
+		$this->load->model('Blog_model', 'blog');
+		$this->blog->insert_entry();
+		redirect('admin/manage', 'refresh');
 		
 		
 	}
@@ -61,7 +56,11 @@ class Admin extends CI_Controller {
 		
 		if($this->easyauth->connected == true):
 		
-		     $this->load->view('admin/manage');
+			$this->load->model('Blog_model', 'blog');
+			$data['entries'] = $this->blog->get_last_ten_entries();
+			$this->load->view('admin/manage', $data);
+
+		     
 		
 		else:
 		
@@ -94,7 +93,11 @@ class Admin extends CI_Controller {
 	{
 		if($this->easyauth->connected == true):
 		
-		     $this->load->view('admin/users_view');
+			$this->load->model('Users_model', 'users');
+			$data['users'] = $this->users->get_users();
+			$this->load->view('admin/users_view', $data);
+
+		     
 		
 		else:
 		
