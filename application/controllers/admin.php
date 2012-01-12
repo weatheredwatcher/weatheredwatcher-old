@@ -33,7 +33,7 @@ class Admin extends CI_Controller {
 		
 			$this->load->view('admin/index_view');
 		
-		endif
+		endif;
 		
 		
 		
@@ -50,7 +50,7 @@ class Admin extends CI_Controller {
 		
 			$this->load->view('admin/index_view');
 		
-		endif
+		endif;
 	
 		
 		
@@ -67,7 +67,7 @@ class Admin extends CI_Controller {
 		
 			$this->load->view('admin/index_view');
 		
-		endif
+		endif;
 		
 		
 		
@@ -85,7 +85,7 @@ class Admin extends CI_Controller {
 		
 			$this->load->view('admin/index_view');
 		
-		endif
+		endif;
 		
 		
 	}
@@ -100,7 +100,7 @@ class Admin extends CI_Controller {
 		
 			$this->load->view('admin/index_view');
 		
-		endif
+		endif;
 		
 		
 	}
