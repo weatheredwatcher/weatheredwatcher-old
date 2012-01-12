@@ -18,7 +18,7 @@ class Admin extends CI_Controller {
 		
 			$this->load->view('admin/index_view');
 		
-		endif
+		endif;
 	
 	}
 	
@@ -49,19 +49,16 @@ class Admin extends CI_Controller {
 	function insert_page()
 	{
 		
-		if ($this->session->userdata('logged_in') == FALSE)
-		{
-		     $this->load->view('admin/index_view');
-		}
-		else
-		{
-			$this->load->model('Blog_model', 'blog');
-			$this->blog->insert_entry();
-			redirect('admin/manage', 'refresh');
-	
-			
-		}
+		if($this->easyauth->connected == true):
 		
+		     $this->load->view('admin/manage');
+		
+		else:
+		
+			$this->load->view('admin/index_view');
+		
+		endif
+	
 		
 		
 	}

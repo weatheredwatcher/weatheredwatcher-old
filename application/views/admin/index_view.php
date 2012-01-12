@@ -1,38 +1,3 @@
-<?php
-
-$login = array(
-              'name'        => 'login',
-              'id'          => 'login',
-              'value'       => 'Username',
-              'maxlength'   => '100',
-              'size'        => '50',
-              'onClick'     => 'form_onCLick()',
-              'onFocus'     => 'form_onFocus()'
-               );
-
-
-$password = array(
-             'name'        => 'password',
-             'id'          => 'password',
-             'value'       => '',
-             'maxlength'   => '100',
-		  	 'type'        => 'password',
-             'size'        => '50',
-             'onClick'     => 'form_onCLick()',
-             'onFocus'     => 'form_onFocus()'
-              );
-
-
-$submit = array(
-    'name' => 'submit',
-    'class' => 'submit',
-	'width' => '100',
-    'value' => 'Submit',
-    'type' => 'submit'
-);
-$attributes = array('class' => 'login', 'id' => 'login_form');
-
-?>
 <?php $this->load->view("admin/_header.php");?>
 	<!-- Navigation -->
 	
