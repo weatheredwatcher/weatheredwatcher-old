@@ -12,7 +12,7 @@ class Admin extends CI_Controller {
 	
 		if($this->easyauth->connected == true):
 		
-		     $this->load->view('admin/manage');
+			echo ("<h2>Welcome to The Backend!</h2>");
 		
 		else:
 		
