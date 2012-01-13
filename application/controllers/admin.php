@@ -24,7 +24,7 @@ class Admin extends CI_Controller {
 	
 	function auth()
 	{
-	
+	    $this->load->model('Users_model', 'users');
 		$this->easyauth->set();
 		$this->easyauth->check();
 		redirect('admin/manage', 'refresh');
