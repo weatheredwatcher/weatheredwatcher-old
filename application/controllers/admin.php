@@ -10,7 +10,7 @@ class Admin extends CI_Controller {
 	function index()
 	{
 	
-		if($this->easyauth->connected == true):
+		if($this->session->userdata('logged_in') == true):
 		
 			echo ("<h2>Welcome to The Backend!</h2>");
 		
@@ -22,19 +22,11 @@ class Admin extends CI_Controller {
 	
 	}
 	
-	function auth()
-	{
-	    $this->load->model('Users_model', 'users');
-		$this->easyauth->set();
-		$this->easyauth->check();
-		$location = $this->uri->segment(2);
-		redirect('admin/'.$location, 'location');
-	
-	}
 	
 	function write()
 	{
-		if($this->easyauth->connected == true):
+		if($this->session->userdata('logged_in') == true):
+		
 		
 			$this->load->model('Users_model', 'users');
 			$data['authors'] = $this->users->get_authors();
@@ -63,7 +55,8 @@ class Admin extends CI_Controller {
 	function manage()
 	{
 		
-		if($this->easyauth->connected == true):
+		if($this->session->userdata('logged_in') == true):
+		
 		
 			$this->load->model('Blog_model', 'blog');
 			$data['entries'] = $this->blog->get_last_ten_entries();
@@ -85,7 +78,8 @@ class Admin extends CI_Controller {
 	function settings()
 	{
 		
-		if($this->easyauth->connected == true):
+		if($this->session->userdata('logged_in') == true):
+		
 		
 		     $this->load->view('admin/settings_view');
 		
@@ -100,7 +94,9 @@ class Admin extends CI_Controller {
 	
 	function users()
 	{
-		if($this->easyauth->connected == true):
+		if($this->session->userdata('logged_in') == true):
+		
+		
 		
 			$this->load->model('Users_model', 'users');
 			$data['users'] = $this->users->get_users();

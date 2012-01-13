@@ -58,6 +58,7 @@ class Easyauth {
 			if($chk->num_rows() == 1):
 				$this->user = $chk->result();
 				$this->connected = true;
+				$this->session->set_userdata('logged_in', TRUE);
 				return true;
 			endif;
 		endif;
