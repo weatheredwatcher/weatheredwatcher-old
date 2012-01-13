@@ -14,7 +14,7 @@
 		
 		if($this->easyauth->connected == true):
 		
-			echo ("<p class="txt_right">Logged in as <strong>$this->easyauth->user</strong>  <span class="v_line"> | </span> <a href="#"> Logout</a></p>");
+			echo ("<p class='txt_right'>Logged in as <strong>$this->easyauth->user</strong>  <span class='v_line'> | </span> <a href='#'> Logout</a></p>");
 		
 		else:
 		
