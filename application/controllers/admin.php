@@ -11,12 +11,12 @@ class Admin extends CI_Controller {
 	{
 	
 		if($this->session->userdata('logged_in') == true):
-		
+		    $this->load->view('admin/_header');
 			echo ("<h2>Welcome to The Backend!</h2>");
-		
+		    $this->load->view('admin/index_view');
 		else:
 		
-			$this->load->view('admin/index_view');
+			$this->load->view('admin/_footer');
 		
 		endif;
 	
