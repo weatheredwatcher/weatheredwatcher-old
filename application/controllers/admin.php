@@ -11,7 +11,7 @@ class Admin extends CI_Controller {
 	{
 	
 		if($this->session->userdata('logged_in') == true):
-			$username = $this->session->userdata('username')
+			$username = $this->session->userdata('username');
 		    $this->load->view('admin/_header');
 			echo ("<h2>Welcome to The Backend!</h2>");
 		    $this->load->view('admin/_footer');
