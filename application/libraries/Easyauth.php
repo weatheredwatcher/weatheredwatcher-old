@@ -58,13 +58,14 @@ class Easyauth {
 			if($chk->num_rows() == 1):
 				$this->user = $chk->result();
 				$this->connected = true;
+				$this->CI->session->set_userdata('username', $_SESSION['login']['username']);
 				$this->CI->session->set_userdata('logged_in', true);
 				return true;
 			endif;
 		endif;
 		
     	if(isset($_SESSION['login'])):
-		//unset($_SESSION['login']);
+		unset($_SESSION['login']);
 		endif;
 		
 		return false;
