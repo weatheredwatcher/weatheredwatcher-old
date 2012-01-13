@@ -63,7 +63,7 @@ class Easyauth {
 		endif;
 		
     	if(isset($_SESSION['login'])):
-		unset($_SESSION['login']);
+		//unset($_SESSION['login']);
 		endif;
 		
 		return false;
