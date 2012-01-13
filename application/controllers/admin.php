@@ -27,7 +27,8 @@ class Admin extends CI_Controller {
 	    $this->load->model('Users_model', 'users');
 		$this->easyauth->set();
 		$this->easyauth->check();
-		redirect('admin/manage', 'refresh');
+		$location = $this->uri->segment(2);
+		redirect('admin/'.$location, 'location');
 	
 	}
 	
