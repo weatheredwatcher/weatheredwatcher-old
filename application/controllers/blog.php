@@ -19,5 +19,15 @@ class Blog extends CI_Controller {
 	
 	}
 	
+	function page()
+	{
 	
+		$slug = $this->uri->segment(3);
+		$this->load->model('Blog_model', 'blog');
+		$data['entries'] = $this->blog->get_entry_by_slug($slug);
+		$this->load->view('blog/blog_page', $data);
+	
+	
+	
+	}
 }
