@@ -11,7 +11,7 @@ class Blog extends CI_Controller {
 	{
 		$this->load->helper('inflector');
 		
-		if (isset($this->uri->segment(2))):
+		if ($this->uri->segment(2) != ""):
 		$slug = $this->uri->segment(2);
 		$this->load->model('Blog_model', 'blog');
 		$data['entries'] = $this->blog->get_entry_by_slug($slug);
