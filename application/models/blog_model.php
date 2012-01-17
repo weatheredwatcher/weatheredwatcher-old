@@ -41,6 +41,16 @@ class Blog_model extends CI_Model {
 	        $this->db->update('blog', $this, array('id' => $_POST['id']));
 	    }
 	
-	
+		function get_entry_by_slug($slug);
+		{
+			
+		$this->db->select('title, author, entry');
+		$this->db->from('blog');
+		$this->db->where('slug', $slug);
+		$query = $this->db->get();
+		return $query->result();
+		
+		
+		}
 	
 }
