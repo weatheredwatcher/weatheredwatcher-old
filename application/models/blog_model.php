@@ -44,10 +44,9 @@ class Blog_model extends CI_Model {
 		function get_entry_by_slug($slug);
 		{
 			
-		$this->db->select('title, author, entry');
-		$this->db->from('blog');
+		
 		$this->db->where('slug', $slug);
-		$query = $this->db->get();
+		$query = $this->db->get('blog');
 		return $query->result();
 		
 		
