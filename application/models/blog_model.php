@@ -24,6 +24,7 @@ class Blog_model extends CI_Model {
 	function insert_entry()
 	    {
 	        $this->title = $this->input->post('title'); 
+			$this->slug = strip_quotes(underscore($this->input->post('title')));
 			$this->author = $this->input->post('author');
 	        $this->entry = $this->input->post('entry');
 	        

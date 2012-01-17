@@ -46,6 +46,8 @@ class Admin extends CI_Controller {
 	
 	function insert_page()
 	{
+		$this->load->helper('string');
+		$this->load->helper('inflector');
 		
 		$this->load->model('Blog_model', 'blog');
 		$this->blog->insert_entry();
