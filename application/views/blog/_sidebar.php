@@ -20,7 +20,7 @@
                   <a href="index.html"><?=img($grav_url);?></a>
         I was born in Greensboro NC. When I was 12 my family moved overseas to the Country of Kazakhstan. It was there I meet my wife Arina and learned the Russian Language. My wife and I live in Columbia SC with our daughter who was born in 2005. I am currently a Software Consultant that works with start-up.  I mainly build in PHP, Rails and Python.
 
-When it comes to web-sites, I prefer to hand code my HTML. I am currently developing everything on Mac. I develop PHP and Ruby on Rails with TextMate. <a href="/about">Learn more...</a>
+When it comes to web-sites, I prefer to hand code my HTML. I am currently developing everything on either a Mac or Debian. I develop PHP and Ruby on Rails with TextMate and eMacs. I deploy to Debian. <a href="/about">Learn more...</a>
                             </p>
 
      </div>
