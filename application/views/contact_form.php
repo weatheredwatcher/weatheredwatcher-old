@@ -15,8 +15,8 @@
 <?=form_input('from', ''); ?><br />
 <?=form_label('Subject:', 'subject'); ?> 
 <?=form_input('subject', ''); ?><br />
-<?=form_label('Message:', 'message', array('cols' => '50')); ?>
-<?=form_textarea('message', ''); ?> <br />
+<?=form_label('Message:', 'message'); ?>
+<?=form_textarea('message', '',array('cols' => '50')); ?> <br />
 <?=form_submit('submit', 'Submit'); ?>
 <?=form_close(); ?>
 
