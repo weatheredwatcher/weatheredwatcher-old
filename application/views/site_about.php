@@ -19,7 +19,7 @@
 				Strategic Languages and Cultures as a web-developer.</p>
 
 			<p>I work in PHP, Ruby on Rails, Ajax/JavaScript, Python and Clojure. I develop back and forth
-				between a mac with TextMate and Debian with eMacs.  I deploy to Debian.</p>
+				between a mac with TextMate and Linux with eMacs.  I deploy to Linux</p>
 
 			<p>Over the years, I have worked for several start ups, including Lead Programmer for 
 				Leveraged Media, a Tech Company disguised as a Marketing Company disguised as a 
@@ -31,9 +31,13 @@
 
 			<p>I also do some dabbling in social media integration.</p>
 			
-			<p> In 1999 I was first introduced to Linux.  A family friend gave me a install disk for Red Hat. In order to get it to work on the 				desktop that I had laying around (some PI or PII that I had helped my Grandfather build earlier) I had to write my own config 				  file for X.  Ahh! I was in love.  Over the years I have tried pretty much every single Linux Distro in existence.  I tried Debian 				in mid 2000 and that was it.  It became my favorite flavor.  I strayed a few times (Sabayon has a pretty take on Gentoo, and 				 SuSE has it's charms) but I have always come back.</p>
+			<p> In 1999 I was first introduced to Linux.  A family friend gave me a install disk for Red Hat. In order to get it to work on the
+			desktop that I had laying around (some PI or PII that I had helped my Grandfather build earlier) I had to write my own config
+			file for X.  Ahh! I was in love.  Over the years I have tried pretty much every single Linux Distro in existence.  I tried Debian,
+			Sabayon has a pretty take on Gentoo, and
+			SuSE has it's charms but I have come back at the end to Fedora.</p>
 			
-			<p>I currently go back and forth between the Mac and Debian.  I got started on the mac in school when the iPhone first came out.  I 			   had one and wanted to start developing apps.  Then I started doing all my web development stuff on it as well.  There are really 			   a lot of nice , well thought out development tools on the Mac Platform that are coded by Indie Developers whom I don't mind 			      supporting. Some of my tools are opensource, but only available on the Mac.  I have found my self enjoying the well thought  				  out-ness of the Mac, while it still retains the raw power and freedom of an open unix system.  Once someone produces an   			   Android handset that can match the quality of the iPhone, I migiht go back to exclusive Linux.  I briefly owned the Nokia n900 				 and that is still to this day my favorite phone. Period.  If they had continued the line with another high quality phone, I would 			      have bought it...I was prepared for the smaller market..I was already begining to code some apps in Qt for it!
+			<p>I currently go back and forth between the Mac and Fedora.  I got started on the mac in school when the iPhone first came out.  I 			   had one and wanted to start developing apps.  Then I started doing all my web development stuff on it as well.  There are really 			   a lot of nice , well thought out development tools on the Mac Platform that are coded by Indie Developers whom I don't mind 			      supporting. Some of my tools are opensource, but only available on the Mac.  I have found my self enjoying the well thought  				  out-ness of the Mac, while it still retains the raw power and freedom of an open unix system.  Once someone produces an   			   Android handset that can match the quality of the iPhone, I migiht go back to exclusive Linux.  I briefly owned the Nokia n900 				 and that is still to this day my favorite phone. Period.  If they had continued the line with another high quality phone, I would 			      have bought it...I was prepared for the smaller market..I was already begining to code some apps in Qt for it!
 		   </p>
 				
 
