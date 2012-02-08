@@ -1,4 +1,6 @@
 <?= $this->load->view('_header');?>
+<?php
+
 <!-- content-outer -->
 <div id="content-wrap" class="clear" >
 
@@ -13,7 +15,7 @@
 <?=form_input('from', ''); ?><br />
 <?=form_label('Subject:', 'subject'); ?> 
 <?=form_input('subject', ''); ?><br />
-<?=form_label('Message:', 'message'); ?>
+<?=form_label('Message:', 'message', array('cols' => '50'); ?>
 <?=form_textarea('message', ''); ?> <br />
 <?=form_submit('submit', 'Submit'); ?>
 <?=form_close(); ?>
