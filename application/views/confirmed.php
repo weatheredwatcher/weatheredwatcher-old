@@ -7,7 +7,7 @@
 
         <!-- main -->
            <div id="main">
-<%= yield %>
+<h2>Thank you! Your email has been sent.</h2>
 
         <!-- /main -->
                 </div>
