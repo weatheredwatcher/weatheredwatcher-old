@@ -19,9 +19,9 @@ class Contact extends CI_Controller {
 	
 	function send_email(){
 		
-				$from = $this->input->post['from'];
-				$subject = $this->input->post['subject'];
-				$message = $this->input->post['message'];
+				$from = $this->input->post('from');
+				$subject = $this->input->post('subject');
+				$message = $this->input->post('message');
 							      
 				$this->email->from($from);
 				$this->email->to("weatheredwatcher@gmail.com");
