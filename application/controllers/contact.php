@@ -5,21 +5,39 @@ class Contact extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->library('email');
+
 	}
 		
 	function index()
 	{
-		$this->load->library('email');
-
-		$this->email->from('noreply@weatheredwatcher.com', 'weatheredwatcher.com');
-		$this->email->to('weatheredwatcher@gmail.com');
+		if(!isset($this->input->post['submit'])):
 		
-		$this->email->subject('Email Test');
-		$this->email->message('Testing the email class.');
+			$this->load->view('contact_form');
+			
+			else:
+				$from = $this->input->post['from'];
+				$subject = $this->input->post['subject'];
+				$message = $this->input->post['message'];
+							      
+				$this->email->from($from);
+				$this->email->to("weatheredwatcher@gmail.com");
 		
-		$this->email->send();
-
-		echo $this->email->print_debugger();
-		//$this->load->view('contact_form');
+				$this->email->subject($subject);
+				$this->email->message($message);
+		
+				if($this->email->send()):
+					$this->load->view('confirmed');
+					
+					else:
+						$this->load->view('email_error');
+					endif;
+                                
+							     
+			endif;
+			
+		
+		
+				
 	}
 }
