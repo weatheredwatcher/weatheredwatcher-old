@@ -1,5 +1,5 @@
 <?= $this->load->view('_header');?>
-<?php
+
 
 <!-- content-outer -->
 <div id="content-wrap" class="clear" >
