@@ -7,17 +7,7 @@
 
         <!-- main -->
            <div id="main">
-           
-<?=form_open('contact'); ?>
-<?=form_label('From:', 'from'); ?> 
-<?=form_input('from', ''); ?><br />
-<?=form_label('Subject:', 'subject'); ?> 
-<?=form_input('subject', ''); ?><br />
-<?=form_label('Message:', 'message'); ?>
-<?=form_textarea('message', ''); ?> <br />
-<?=form_submit('submit', 'Submit'); ?>
-<?=form_close(); ?>
-
+<%= yield %>
 
         <!-- /main -->
                 </div>
