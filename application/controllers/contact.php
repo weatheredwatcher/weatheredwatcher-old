@@ -9,6 +9,17 @@ class Contact extends CI_Controller {
 		
 	function index()
 	{
-		$this->load->view('contact_form');
+		$this->load->library('email');
+
+		$this->email->from('noreply@weatheredwatcher.com', 'weatheredwatcher.com');
+		$this->email->to('weatheredwatcher@gmail.com');
+		
+		$this->email->subject('Email Test');
+		$this->email->message('Testing the email class.');
+		
+		$this->email->send();
+
+		echo $this->email->print_debugger();
+		//$this->load->view('contact_form');
 	}
 }
