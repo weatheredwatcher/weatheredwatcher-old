@@ -11,11 +11,14 @@ class Contact extends CI_Controller {
 		
 	function index()
 	{
-		if(!isset($this->input->post['submit'])):
+		
 		
 			$this->load->view('contact_form');
-			
-			else:
+
+	}
+	
+	function send_mail(){
+		
 				$from = $this->input->post['from'];
 				$subject = $this->input->post['subject'];
 				$message = $this->input->post['message'];
@@ -32,12 +35,6 @@ class Contact extends CI_Controller {
 					else:
 						$this->load->view('email_error');
 					endif;
-                                
-							     
-			endif;
-			
-		
-		
-				
+                                		
 	}
 }

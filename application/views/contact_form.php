@@ -10,7 +10,7 @@
         <!-- main -->
            <div id="main">
            
-<?=form_open('contact'); ?>
+<?=form_open('contact/send_form'); ?>
 <?=form_label('From:', 'from'); ?> 
 <?=form_input('from', ''); ?><br />
 <?=form_label('Subject:', 'subject'); ?> 
