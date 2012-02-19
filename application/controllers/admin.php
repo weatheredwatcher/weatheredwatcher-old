@@ -13,7 +13,7 @@ class Admin extends CI_Controller {
 		if($this->session->userdata('logged_in') == true):
 			$username = $this->session->userdata('username');
 		
-		$redirect('admin/manage, 'redirect');
+		$redirect('admin/manage, 'refresh');
 		else:
 		
 		    $this->load->view('admin/index_view');
