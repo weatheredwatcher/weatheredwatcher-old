@@ -45,6 +45,7 @@ When it comes to web-sites, I prefer to hand code my HTML. I am currently develo
                 </li>
                                     <li><a href="http://graemefouste.posterous.com/" title="Graeme Fouste">Graeme Fouste <br /></a>
                 </li>
+   <li><a href="http://blog.linuxgrrl.com/">Máirín Duffy</a></li>
                             </ul>
 
                     </div>
