@@ -10,19 +10,18 @@ class Feed  extends CI_Controller {
 		
 	function index()
 	{
-		//$this->load->helper('inflector');
-	    //$this->load->helper('xml');  
-		//$this->load->helper('text');  
-		//$this->load->model('Blog_model', 'blog');    
+		$this->load->helper('inflector');
+	    $this->load->helper('xml');  
+		$this->load->helper('text');  
+		$this->load->model('Blog_model', 'blog');    
 		
-		//$data['entries'] = $this->blog->get_last_ten_entries();
-		$data['entries'] = 'Hello Sparky!;
-		$this->load->view('rss_test', $data);
+		$data['entries'] = $this->blog->get_last_ten_entries();
+		$this->load->view('rss', $data);
 		//why is this not working yet?
 		
 		     
 	}
 	
-
+}
 
 ?>
