@@ -1,4 +1,4 @@
-<?php echo ('<?xml version="1.0" encoding="utf-8" standalone="no"?>'. '<br />'); ?>
+<?php echo ('<?xml version="1.0" encoding="utf-8" standalone="no"?>'. \n); ?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>....mindless rantings of a lunatic</title>
