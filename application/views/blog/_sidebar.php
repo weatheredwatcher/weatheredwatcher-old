@@ -49,6 +49,9 @@ When it comes to web-sites, I prefer to hand code my HTML. I am currently develo
                             </ul>
 
                     </div>
+                    <div>
+    <a href="http://get.fedoraproject.org/"><img src="https://fedoraproject.org/static/images/banners/f16release.png" alt="Fedora"></a>
+    </div>
 <div id="twitter"></div>
      <div class="popular">
 
