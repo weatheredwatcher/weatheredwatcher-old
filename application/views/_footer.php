@@ -38,11 +38,13 @@
                 <a href="http://feeds.feedburner.com/Weatheredwatcher">RSS</a>,
                 <a href="http://www.twitter.com/DavidDuggins">Twitter</a>, <a href="http://www.davidduggins.com">Google+</a> or <a href="index">Email</a>
            </p>
+           <p>
 <script type="text/javascript">document.write("<iframe name='banner' src='http://referrals.appfog.com/scripts/banner.php?a_aid=56291801&a_bid=a736bdc2&w=1' framespacing='0' frameborder='no' scrolling='no' width='165' height='35' allowtransparency='true'><a href='https://phpfog.com?a_aid=56291801&amp;a_bid=a736bdc2' target='_top'>Powered By PHP Fog Badge</a></iframe>");
 </script>
 <noscript>
 <h2><a href="https://phpfog.com">Powered By PHP Fog Badge</a></h2>
 </noscript>
+</p>
         </div>
 
         <div class="col-a">
