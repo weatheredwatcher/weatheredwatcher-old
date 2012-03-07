@@ -17,7 +17,6 @@ class Feed  extends CI_Controller {
 		
 		$data['entries'] = $this->blog->get_last_ten_entries();
 		$this->load->view('rss', $data);
-		//why is this not working yet?
 		
 		     
 	}
