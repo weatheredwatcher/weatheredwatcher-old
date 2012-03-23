@@ -69,7 +69,7 @@ $route['default_controller'] = "site";
 $route['about'] = "site/about";
 $route['projects'] = "site/projects";
 $route['speaking'] = "site/speaking";
-
+$route['blog/:num'] = "blog";
 
 //custom 404_override
 $route['404_override'] = '';
