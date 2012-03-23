@@ -23,7 +23,7 @@ class Blog extends CI_Controller {
 		
 		$this->pagination->initialize($config);
 		
-		$data['records'] = $this->db->get('blog', $config['per_page'], $this->uri->segment(3));
+		$data['entries'] = $this->db->get('blog', $config['per_page'], $this->uri->segment(3));
 		
 		//$data['entries'] = $this->blog->get_last_ten_entries();
 		$this->load->view('blog/blog_main', $data);
