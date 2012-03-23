@@ -17,7 +17,7 @@ class Blog extends CI_Controller {
 	        $config["base_url"] = base_url() . "blog";
 	        $config["total_rows"] = $this->blog->record_count();
 	        $config["per_page"] = 10;
-	        $config["uri_segment"] = 3;
+	        $config["uri_segment"] = 2;
 	 
 	        $this->pagination->initialize($config);
 	 
