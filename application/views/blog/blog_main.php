@@ -9,7 +9,7 @@
            <div id="main">
 <?php foreach($results as $entry): ?>
 	
-	<h3><a href="blog/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
+	<h3><a href="page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
 	<?=$entry->entry; ?>
 <?php endforeach; ?>
 <?=$links?>
