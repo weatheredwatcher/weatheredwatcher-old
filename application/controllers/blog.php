@@ -12,8 +12,6 @@ class Blog extends CI_Controller {
 		$this->load->helper('inflector');
 		
 		$this->load->model('Blog_model', 'blog');
-		
-		
 		$data['entries'] = $this->blog->get_last_ten_entries();
 		$this->load->view('blog/blog_main', $data);
 		
