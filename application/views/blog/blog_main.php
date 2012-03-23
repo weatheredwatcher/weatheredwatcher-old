@@ -7,7 +7,7 @@
 
         <!-- main -->
            <div id="main">
-<?php foreach($entries as $entry): ?>
+<?php foreach($results as $entry): ?>
 	
 	<h3><a href="blog/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
 	<?=$entry->entry; ?>
