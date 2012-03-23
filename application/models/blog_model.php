@@ -6,7 +6,28 @@ class Blog_model extends CI_Model {
 	{
 		parent::__construct();
 	}
-		
+	
+	 function record_count() {
+	        return $this->db->count_all('blog');
+	    }
+	    
+	    	
+	function get_entries($limit, $start)
+	    {
+	        $this->db->order_by('timestamp', 'desc');
+	        $this->db->limit($limit, $start);
+	        $query = $this->db->get('blog');
+
+				if ($query->num_rows() > 0) {
+	            foreach ($query->result() as $row) {
+	                $data[] = $row;
+                }
+
+	        return $data;
+	        }
+	        return false;
+	    }
+
 	function get_last_ten_entries()
 	    {
 	        $this->db->order_by('timestamp', 'desc');
