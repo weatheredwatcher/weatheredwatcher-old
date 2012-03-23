@@ -10,9 +10,22 @@ class Blog extends CI_Controller {
 	function index()
 	{
 		$this->load->helper('inflector');
-		
+		$this->load->library('pagination');
 		$this->load->model('Blog_model', 'blog');
-		$data['entries'] = $this->blog->get_last_ten_entries();
+		//$this->table->set_heading('Id', 'The Title', 'The Content');
+		
+		$config['base_url'] = 'http://weatheredwatcher.com/blog';
+		$config['total_rows'] = $this->db->get('blog')->num_rows();
+		$config['per_page'] = 10;
+		$config['num_links'] = 20;
+		$config['full_tag_open'] = '<div id="pagination">';
+		$config['full_tag_close'] = '</div>';
+		
+		$this->pagination->initialize($config);
+		
+		$data['records'] = $this->db->get('blog', $config['per_page'], $this->uri->segment(3));
+		
+		//$data['entries'] = $this->blog->get_last_ten_entries();
 		$this->load->view('blog/blog_main', $data);
 		
 	
