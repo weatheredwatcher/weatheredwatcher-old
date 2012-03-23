@@ -12,7 +12,7 @@
 	<h3><a href="blog/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
 	<?=$entry->entry; ?>
 <?php endforeach; ?>
-<?php echo $this->pagination->create_links(); ?>
+<?=$links?>
 
         <!-- /main -->
                 </div>
