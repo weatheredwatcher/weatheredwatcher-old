@@ -15,6 +15,7 @@ class Blog extends CI_Controller {
 		
 		
 		$data['entries'] = $this->blog->get_last_ten_entries();
+		$this->load->view('blog/blog_main', $data);
 		
 	
 	}
