@@ -21,7 +21,7 @@ class Blog extends CI_Controller {
 	 
 	        $this->pagination->initialize($config);
 	 
-	        $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
+	        $page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 0;
 	        $data["results"] = $this->blog->get_entries($config["per_page"], $page);
 	        $data["links"] = $this->pagination->create_links();
 
