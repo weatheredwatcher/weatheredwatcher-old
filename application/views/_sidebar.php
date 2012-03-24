@@ -8,4 +8,7 @@
 	<a href="http://get.fedoraproject.org/"><img src="https://fedoraproject.org/static/images/banners/f16release.png" alt="Fedora"></a>
 	</div>
 	<div id="twitter"></div>
+	<div>
+<iframe src="http://githubbadge.appspot.com/badge/weatheredwatcher?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
+	</div>
 </div>
