@@ -57,6 +57,8 @@ When it comes to web-sites, I prefer to hand code my HTML. I am currently develo
 
                             
                     </div>
-
+<div>
+<iframe src="http://githubbadge.appspot.com/badge/weatheredwatcher?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
+    </div>
   <!-- /sidebar -->
             </div>
