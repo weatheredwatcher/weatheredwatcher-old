@@ -31,7 +31,7 @@ When it comes to web-sites, I prefer to hand code my HTML. I am currently develo
 
                             <h3>Friends/Blogroll</h3>
         <ul>
-                                    <li><a href="http://www.iangreulichonline.com" title="Ian Greulich Online">Ian Greulich Online <br /></a>
+                                    <li><a href="http://www.greulich.me/" title="Ian Greulich Online">Ian Greulich<br /></a>
                 </li>
                                     <li><a href="http://jedschneider.posterous.com/" title="Jed Schneider">Jed Schneider <br />
                     <span>crashland, again</span></a>
