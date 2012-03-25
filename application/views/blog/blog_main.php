@@ -10,7 +10,7 @@
 <?php foreach($results as $entry): ?>
 	
 	<h3><a href="http://www.weatheredwatcher.com/blog/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
-	<?=$entry->entry; ?>
+	<?=this->typography->auto_typography($entry->entry); ?>
 <?php endforeach; ?>
 <?=$links?>
 

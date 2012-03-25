@@ -12,6 +12,7 @@ class Blog extends CI_Controller {
 		$this->load->helper('inflector');
 		$this->load->library('pagination');
 		$this->load->model('Blog_model', 'blog');
+		$this->load->library('typography');
 		
 			$config = array();
 	        $config["base_url"] = base_url() . "blog";
