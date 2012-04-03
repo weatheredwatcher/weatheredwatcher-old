@@ -15,7 +15,7 @@
 
 			<p> In 2011 I was a speaker at POSSCON here in Columbia SC.  I gave a talk on using Open Source Software to Run you business.  I also gave a workshop on using various Open Source Software programs.</p>
 
-      <p> In 2012 I am co-hosting a php luncheon with the fabulous Elizabeth Naramore.  </p>
+      <p> In 2012 I co-hosted a php "Birds of a Feather" luncheon with the fabulous Elizabeth Naramore. I discussed  the creation of a Columbia based PHU Users Group and demoed the new server feature in php 5.4.0  </p>
 
         <!-- /main -->
                 </div>
