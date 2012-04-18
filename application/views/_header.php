@@ -53,6 +53,12 @@
   })();
 
 </script>
+<style type="text/css">
+
+      #emurse_resume_badge_gogomonkey a {color: #3672a4;}
+      #emurse_resume_badge_gogomonkey a:hover {color: #113249;}
+      #emurse_resume_badge_gogomonkey td,#emurse_resume_badge_gogomonkey th { padding: 4px !important; }
+    </style>
 </head>
 
 <body>
