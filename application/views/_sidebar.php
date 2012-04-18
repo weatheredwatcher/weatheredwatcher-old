@@ -4,7 +4,7 @@
 	<script>(function(d,t){var b=d.createElement(t),c=d.getElementsByTagName(t)[0];b.async=b.src="http://socialstatistics.com/widget/widget.min.js";c.parentNode.insertBefore(b,c);})(document,'script');</script>
 	<div>
     
-    <table id="emurse_resume_badge_gogomonkey" cellspacing="0" cellpadding="4" border="0" style="border: 2px solid #224f6f ;font-family:arial;font-size:11px;">
+    <table id="emurse_resume_badge_gogomonkey" cellspacing="0" cellpadding="4" border="0" style="border: 2px solid #224f6f ;font-family:arial;font-size:11px; width:100%; margin: 10px 0px;">
     	<tr>
     		<th colspan="3" style="border-bottom: 1px solid #224f6f;font-size:12px;color:#fff;background:#4a7b9d;">
     			My Resume
