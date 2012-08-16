@@ -11,11 +11,11 @@
 				where I became very active in the hacker community. Me and my friend Kostya Tayban started 
 				running BBS's from our homes and were for a time connected to the FidoNet.</p>
 
-			<p>My wife and I came to the states in 2000 and in 2001 moved to Charlotte NC. In Charlotte 
+			<p>I came to the states in 2000 and in 2001 moved to Charlotte NC. In Charlotte 
 				I did IT work for several Car Dealerships as well as some web and software development 
 				for a few small start-up ventures.</p>
 
-			<p>In 2006, moved the family to Columbia SC were I begain working for the Institute of 
+			<p>In 2006, moved to Columbia SC were I begain working for the Institute of 
 				Strategic Languages and Cultures as a web-developer.</p>
 
 			<p>I work in PHP, Ruby on Rails, Ajax/JavaScript, Python and Clojure. I develop on Linux (Fedora).</p>

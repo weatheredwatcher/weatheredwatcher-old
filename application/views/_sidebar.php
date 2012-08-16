@@ -8,7 +8,7 @@
 	</div>
 	<a href='https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function' title='JavaScript Function .toString'><img src='http://static.jsconf.us/promotejsv.gif' height='280' width='160' alt='JavaScript Function .toString'/></a>
 	<div>
-	<a href="http://get.fedoraproject.org/"><img src="https://fedoraproject.org/static/images/banners/f16release.png" alt="Fedora"></a>
+	<a href="http://get.fedoraproject.org/"><img src="https://fedoraproject.org/static/images/banners/f17release.png" alt="Fedora"></a>
 	</div>
 	<div id="twitter"></div>
 	<div>

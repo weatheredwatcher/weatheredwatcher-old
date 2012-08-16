@@ -18,10 +18,8 @@
             <h3>About Me</h3>
                   <p>
                   <a href="index.html"><?=img($grav_url);?></a>
-        I was born in Greensboro NC. When I was 12 my family moved overseas to the Country of Kazakhstan. It was there I meet my wife Arina and learned the Russian Language. My wife and I live in Columbia SC with our daughter who was born in 2005. I am currently a Software Consultant that works with start-up.  I mainly build in PHP, Rails and Python.
-
-When it comes to web-sites, I prefer to hand code my HTML. I am currently developing everything on either a Mac or Linux. I develop PHP and Ruby on Rails with TextMate and eMacs. I deploy to Linux. <a href="/about">Learn more...</a>
-                            </p>
+                  On a bright and cheery July day in 1981 I was born....and I have been creating chaos ever since! Nerd. Linux Geek. Free Software Evangelist. developer.
+        </p>
 
      </div>
 
@@ -50,7 +48,7 @@ When it comes to web-sites, I prefer to hand code my HTML. I am currently develo
 
                     </div>
                     <div>
-    <a href="http://get.fedoraproject.org/"><img src="https://fedoraproject.org/static/images/banners/f16release.png" alt="Fedora"></a>
+    <a href="http://get.fedoraproject.org/"><img src="https://fedoraproject.org/static/images/banners/f17release.png" alt="Fedora"></a>
     </div>
 <div id="twitter"></div>
      <div class="popular">
