@@ -16,6 +16,7 @@
 
 			It is released under the GPL.
 			</p>
+			<h3>Gists</h3>
 			<p>
 			<?php foreach($gists as $gist ): ?>
 				<? var_dump($gist); ?>
