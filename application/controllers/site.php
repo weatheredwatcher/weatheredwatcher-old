@@ -20,12 +20,12 @@ $this->load->view('site_main');
 	
 	function projects(){
 		
-		//$ch = curl_init();		
-		//curl_setopt($ch, CURLOPT_URL, "https://api.github.com/gists");
-		//curl_setopt($ch, CURLOPT_USERPWD,  "weatheredwatcher:m0rpheus");
-		//$data['gists'] = curl_exec($ch);
-		// close cURL resource, and free up system resources
-		//curl_close($ch);
+		$ch = curl_init();		
+		curl_setopt($ch, CURLOPT_URL, "https://api.github.com/gists");
+		curl_setopt($ch, CURLOPT_USERPWD,  "weatheredwatcher:m0rpheus");
+		$data = curl_exec($ch);
+		//close cURL resource, and free up system resources
+		curl_close($ch);
 		$this->load->view('site_projects');
 	}
 	
