@@ -27,7 +27,7 @@ function __construct()
 
 		//This sets the username and password for the api connection
 		//Overrides the default
-		curl_setopt($this-ch, CURLOPT_USERPWD, "[$this->username]:[$this->password]");
+		curl_setopt($this->ch, CURLOPT_USERPWD, "[$this->username]:[$this->password]");
 
 	}
 
@@ -37,7 +37,7 @@ function __construct()
 		$this->gists = json_decode(curl_exec($this->ch));
 
 		// close cURL resource, and free up system resources
-		curl_close($ch);
+		curl_close($this->ch);
 		return $this->gists;
 
 	}
