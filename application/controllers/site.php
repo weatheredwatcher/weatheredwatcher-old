@@ -22,7 +22,7 @@ $this->load->view('site_main');
 		
 		$ch = curl_init();		
 		curl_setopt($ch, CURLOPT_URL, "https://api.github.com/gists");
-		curl_setopt($ch, CURLOPT_USERPWD,  "[weatheredwatcher]:[m0rpheus]");
+		curl_setopt($ch, CURLOPT_USERPWD,  "weatheredwatcher:m0rpheus");
 		$data['gists'] = json_decode(curl_exec($ch));
 		// close cURL resource, and free up system resources
 		curl_close($ch);
