@@ -20,7 +20,7 @@ $this->load->view('site_main');
 	
 	function projects(){
 		$gists = new GistApi();
-		$data['gists'] = $gists->get_gists;
+		$data['gists'] = $gists::get_gists();
 		$this->load->view('site_projects', $data);
 	}
 	
