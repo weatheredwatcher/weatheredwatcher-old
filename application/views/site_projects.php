@@ -18,10 +18,7 @@
 			</p>
 			<h3>Gists</h3>
 			<p>
-			<?php foreach($gists as $gist ): ?>
-				
-				<hr />
-			<? endforeach; ?>			
+					
 
         <!-- /main -->
                 </div>
