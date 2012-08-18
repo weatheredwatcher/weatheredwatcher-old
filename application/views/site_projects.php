@@ -16,7 +16,11 @@
 
 			It is released under the GPL.
 			</p>
-			
+			<p>
+			<?php foreach($gists as $gist ): ?>
+				<? var_dump($gist); ?>
+				<hr />
+			<? endforeach; ?>			
 
         <!-- /main -->
                 </div>

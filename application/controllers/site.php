@@ -19,8 +19,9 @@ $this->load->view('site_main');
 	}
 	
 	function projects(){
-		
-		$this->load->view('site_projects');
+		$gists = new GistApi();
+		$data['gists'] = $gists->get_gists;
+		$this->load->view('site_projects', $data);
 	}
 	
 	function speaking(){
