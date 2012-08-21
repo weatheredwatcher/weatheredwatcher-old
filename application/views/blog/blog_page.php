@@ -12,15 +12,7 @@
 	<h3><?=$entry->title; ?></h3>
 	<?=$entry->entry; ?>
 <?php endforeach; ?>
-
-        <!-- /main -->
-                </div>
-	 <!-- sidebar -->
-			     <?= $this->load->view('blog/_sidebar');?>           
-     <!-- /sidebar -->
-
-    <!-- content -->
-        <div id="disqus_thread"></div>
+  <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'weatherwatcher'; // required: replace example with your forum shortname
@@ -36,6 +28,14 @@
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
         
         </div>
+        <!-- /main -->
+                </div>
+	 <!-- sidebar -->
+			     <?= $this->load->view('blog/_sidebar');?>           
+     <!-- /sidebar -->
+
+    <!-- content -->
+      
 
 <!-- /content-out -->
 </div>
