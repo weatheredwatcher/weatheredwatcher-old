@@ -348,12 +348,12 @@ fieldset.search {
 #sidebar {
         width: 245px;
         float: right;
-   	margin: 0;
-   	padding: 15px 0;	
-   	font-size: .95em;
-   	position: relative;
-   	bottom: 550px;
-   	right: 100px;
+   margin: 0;
+   padding: 15px 0;
+   font-size: .95em;
+   position: relative;
+   bottom: 550px;
+   right: 100px;
 }
 
 #main h2 {
