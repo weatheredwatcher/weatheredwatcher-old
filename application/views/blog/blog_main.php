@@ -10,6 +10,7 @@
 <?php foreach($results as $entry): ?>
 	
 	<h3><a href="http://www.weatheredwatcher.com/blog/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
+    <i><?=$entry->timestamp; ?></i><br />
 	<?=$entry->entry; ?>
 <?php endforeach; ?>
 <?=$links?>
