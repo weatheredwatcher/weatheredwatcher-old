@@ -27,6 +27,8 @@
 </p>
 <h3>User Groups</h3>
 <p> I occasionally speak at various user groups on php, security, linux, and programming in general.</p>
+<h3> Articles </h3>
+<p>I am currently in the process of writing an article on Traits for a PHP Journal.  More details and possibly a link soon to come</p>
         <!-- /main -->
                 </div>
 				 <!-- sidebar -->
