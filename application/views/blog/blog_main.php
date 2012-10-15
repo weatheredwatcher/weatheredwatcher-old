@@ -13,6 +13,7 @@
     <i><?=$entry->timestamp; ?></i><br />
 	<?=$entry->entry; ?>
 <?php endforeach; ?>
+<br />
 <?=$links?>
 
         <!-- /main -->
