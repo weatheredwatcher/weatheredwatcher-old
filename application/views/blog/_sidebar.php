@@ -7,14 +7,17 @@
 -->
 
 <!-- sidebar -->
-
+<?
+	$grav_url = "http://www.gravatar.com/avatar/" . md5("weatheredwatcher@gmail.com") . "?d=" . urlencode("http://www.weatheredwatcher.com/images/DavidDuggins.jpg") . "&s=40";
+	
+?>
             <div id="sidebar">
 
     <div class="about-me">
 
             <h3>About Me</h3>
                   <p>
-                  <a href="/"><?=gravatar_img( "weatheredwatcher@gmail.com" ); ?></a>
+                  <a href="index.html"><?=img($grav_url);?></a>
                   On a bright and cheery July day in 1981 I was born....and I have been creating chaos ever since! Nerd. Linux Geek. Free Software Evangelist. developer.
         </p>
 
