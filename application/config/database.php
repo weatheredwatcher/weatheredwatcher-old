@@ -1,7 +1,7 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /*
 | -------------------------------------------------------------------
-| DATABASE CONNECTIVITY SETTINGS
+| DATABASE CONNECTIVITY SETTINGS (DEVELOPMENT BRANCH)
 | -------------------------------------------------------------------
 | This file will contain the settings needed to access your database.
 |
