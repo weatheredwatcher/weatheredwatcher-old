@@ -41,10 +41,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = "db01-share";
-$db['default']['username'] = "CodeIgnite-19940";
-$db['default']['password'] = "m0rpheus";
-$db['default']['database'] = "weatheredwatcher_phpfogapp_com";
+$db['default']['hostname'] = "a.db.shared.orchestra.io";
+$db['default']['username'] = "user_234fed6e";
+$db['default']['password'] = "ogpo-WrMaNy)Z^";
+$db['default']['database'] = "db_234fed6e;
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
