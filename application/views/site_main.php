@@ -4,7 +4,7 @@
 
         <!-- content -->
    <div id="content">
-
+    <h2>Namaste!</h2>
         <!-- main -->
            <div id="main" class="span8">
 			   <div id="scrapbook">
