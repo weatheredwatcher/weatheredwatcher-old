@@ -3,3 +3,4 @@
 {"ts":1352212798108,"patch":[[{"diffs":[[0,"\"main\" s"],[1,"pan"],[0,">\n\t\t\t   "]],"start1":188,"start2":188,"length1":16,"length2":19}]],"length":958,"saved":false}
 {"ts":1352212802125,"patch":[[{"diffs":[[0,"in\" span"],[1,"8"],[0,">\n\t\t\t   "]],"start1":191,"start2":191,"length1":16,"length2":17}]],"length":959,"saved":false}
 {"ts":1352212903757,"patch":[[{"diffs":[[0,"=\"main\" "],[1,"class=\""],[0,"span8>\n\t"]],"start1":187,"start2":187,"length1":16,"length2":23}]],"length":966,"saved":false}
+{"ts":1352212968721,"patch":[[{"diffs":[[0,"s=\"span8"],[1,"\""],[0,">\n\t\t\t   "]],"start1":199,"start2":199,"length1":16,"length2":17}]],"length":967,"saved":false}

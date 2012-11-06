@@ -1,4 +1,4 @@
-<div id="sidebar" class="span2">
+<div id="sidebar" class="span3">
 
 	<div class="socialstatistics-widget" data-id="114276686833669364156"></div>
 	<script>(function(d,t){var b=d.createElement(t),c=d.getElementsByTagName(t)[0];b.async=b.src="http://socialstatistics.com/widget/widget.min.js";c.parentNode.insertBefore(b,c);})(document,'script');</script>
