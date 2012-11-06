@@ -6,7 +6,7 @@
    <div id="content">
 
         <!-- main -->
-           <div id="main">
+           <div id="main" span8>
 			   <div id="scrapbook">
 			   <?=img('img/scrapbook1.jpg');?>
 			   <?=img('img/scrapbook2.jpg');?>
