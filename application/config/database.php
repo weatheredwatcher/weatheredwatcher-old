@@ -1,7 +1,7 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /*
 | -------------------------------------------------------------------
-| DATABASE CONNECTIVITY SETTINGS (LOCAL DEVELOPMENT BRANCH)
+| DATABASE CONNECTIVITY SETTINGS (DEVELOPMENT BRANCH)
 | -------------------------------------------------------------------
 | This file will contain the settings needed to access your database.
 |
@@ -41,9 +41,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = "127.0.0.1";
-$db['default']['username'] = "root";
-$db['default']['password'] = "";
+$db['default']['hostname'] = "a.db.shared.orchestra.io";
+$db['default']['username'] = "user_234fed6e";
+$db['default']['password'] = "ogpo-WrMaNy)Z^";
 $db['default']['database'] = "db_234fed6e";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
