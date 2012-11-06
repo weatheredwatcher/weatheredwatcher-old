@@ -6,7 +6,7 @@
    <div id="content">
 
         <!-- main -->
-           <div id="main">
+           <div id="main" class="span8">
 <?php foreach($results as $entry): ?>
 	
 	<h3><a href="http://www.weatheredwatcher.com/blog/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>

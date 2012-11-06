@@ -6,7 +6,7 @@
    <div id="content">
 
         <!-- main -->
-           <div id="main">
+           <div id="main" class="span8">
 <?php foreach($entries as $entry): ?>
 	
 	<h3><?=$entry->title; ?></h3>

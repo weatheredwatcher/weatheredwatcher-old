@@ -11,7 +11,7 @@
 	$grav_url = "http://www.gravatar.com/avatar/" . md5("weatheredwatcher@gmail.com") . "?d=" . urlencode("http://www.weatheredwatcher.com/images/DavidDuggins.jpg") . "&s=40";
 	
 ?>
-            <div id="sidebar">
+            <div id="sidebar" class="span3">
 
     <div class="about-me">
 
