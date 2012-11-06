@@ -4,10 +4,10 @@
 
         <!-- content -->
    <div id="content">
-
+<h3>Projects and Portfolio</h3>
         <!-- main -->
            <div id="main" class="span8">
-			<h3>Projects and Portfolio</h3>
+			
 			<p>
 			<span class="project">This site</span> is really one of my little projects.  This is my new and improved site.  It's hand coded in Codeigniter and is also the testing grounds for my very own base cms in Codeigniter.
 			</p>

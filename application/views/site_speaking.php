@@ -4,10 +4,10 @@
 
         <!-- content -->
    <div id="content">
-
+<h3>Speaking</h3>
         <!-- main -->
            <div id="main" class="span8">
-			<h3>Speaking</h3>
+			
 
 			<p>I am available to speak at conferences and other events. Why would you want me to speak? I have over ten years experience in the Open Source world.  I am an active developer in the open source community and I believe in using open software to develop open standards.</p>
 
