@@ -7,91 +7,62 @@
 -->
 
 
-<!-- footer-outer -->
-<div id="footer-outer" class="clear"><div id="footer-wrap">
+ </div>
 
 
 
-         <div class="col-a">
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="span8">
+        <p>Designed and built with all the love in the world <a href="http://twitter.com/davidduggins" target="_blank">@davidduggins</a>
+        <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">GPLv3</a>. Blog and Text licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <ul class="footer-links">
+          <li><a href="http://blog.getbootstrap.com">Read the blog</a></li>
+          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Submit issues</a></li>
+          <li><a href="https://github.com/twitter/bootstrap/wiki">Roadmap and changelog</a></li>
+        </ul>
 
 
 
-       <h3>Social Media</h3>
+      </div>
+      <div class="span3">
+        <img src="img/footer_logo.jpg" alt="weatheredwatcher!" />
+      </div>
+      </div>
+    </footer>
 
-      <ul class="subscribe-stuff">
-        <li><a title="RSS" href="http://feeds.feedburner.com/Weatheredwatcher" rel="nofollow">
-                               <?= img('images/social_rss.png'); ?></a>
-                </li>
-        
-                        <li><a title="Twitter" href="http://www.twitter.com/DavidDuggins" rel="nofollow">
-                                <?= img('images/social_twitter.png'); ?></a>
-                        </li>
-						<li><a title="Google+" href="http://www.davidduggins.com" rel="nofollow">
-                                <?= img('images/g-plus.png'); ?></a>
-                        </li>
-                        <li><a title="E-mail this story to a friend!" href="index.html" rel="nofollow">
-                                <?= img('images/social_email.png'); ?></a>
-                        </li>
-      </ul>
 
-      <p>Stay up to date. Follow me via
-                <a href="http://feeds.feedburner.com/Weatheredwatcher">RSS</a>,
-                <a href="http://www.twitter.com/DavidDuggins">Twitter</a>, <a href="http://www.davidduggins.com">Google+</a> or <a href="index">Email</a>
-           </p>
-           <p>
-<script type="text/javascript">document.write("<iframe name='banner' src='http://referrals.appfog.com/scripts/banner.php?a_aid=56291801&a_bid=a736bdc2&w=1' framespacing='0' frameborder='no' scrolling='no' width='165' height='35' allowtransparency='true'><a href='https://phpfog.com?a_aid=56291801&amp;a_bid=a736bdc2' target='_top'>Powered By PHP Fog Badge</a></iframe>");
-</script>
-<noscript>
-<h2><a href="https://phpfog.com">Powered By PHP Fog Badge</a></h2>
-</noscript>
-</p>
-        </div>
 
-        <div class="col-a">
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/prettify/prettify.js"></script>
+    <script>prettyPrint(); </script>
 
-        <h3>Site Links</h3>
 
-                <div class="footer-list">
-                        <ul>
-		                        <li><?=anchor('site/', 'Home');?></li>
-		                        <li><?=anchor('site/about', 'About');?></li>
-		                        <li><?=anchor('site/projects', 'Projects & Portfolio');?></li>
-		                        <li><?=anchor('blog/', 'Blog');?></li>
-		                        <li><?=anchor('site/speaking', 'Speaking');?></li>
-		                        <li><?=anchor('/contact', 'Contact');?></li>
-		                </ul>
-                </div>
-        </div>
 
-   <div class="col-a">
+    <!-- Analytics
+    ================================================== -->
+    <script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
 
-      
-   </div>
-
-   <div class="col-b">
-
-   </div>
-</div>
-</div></div>
-
-<!-- footer-bottom -->
-<div id="footer-bottom">
-
-        <p class="bottom-left">
-                2011 weatheredwatcher <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>
-                design based on CoolBlue by <a href="http://www.styleshout.com/">styleshout</a>
-        </p>
-
-        <p class="bottom-right">
-                <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> |
-           <a href="http://validator.w3.org/check/referer">XHTML</a>    |
-                <?=anchor('site/', 'Home');?> |
-                <a href="http://feeds.feedburner.com/Weatheredwatcher">RSS Feed</a> |
-      <strong><a href="#top">Back to Top</a></strong>
-   </p>
-
-<!-- /footer-bottom-->
-</div>
-
-</body>
+  </body>
 </html>

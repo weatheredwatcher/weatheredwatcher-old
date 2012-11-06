@@ -1,94 +1,74 @@
-<!doctype html>
-<!--
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WeatheredWatcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-@name: _header.php
-@description: This is the header partial for weatheredwatcher.
-@author: David Duggins
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
--->
-<head>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="js/prettify/solarized.css" rel="stylesheet">
 
-<title>WeatheredWatcher</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
- <?= link_tag('stylesheets/coolblue.css'); ?>
-  <?= link_tag('stylesheets/jquery.twitter.css'); ?>
-  <script src="http://www.weatheredwatcher.com/javascripts/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="http://www.weatheredwatcher.com/javascripts/jquery.twitter.js" type="text/javascript" charset="utf-8"></script>
-   
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
-<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-<meta name="author" content="David Duggins, based on a design by Erwin Aligam - styleshout.com" />
-<meta name="description" content="This is the online home for opensource enthusiast, developer and speaker David Duggins" />
-<meta name="robots" content="index, follow, noarchive" />
-<meta name="googlebot" content="noarchive" />
-<link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/Weatheredwatcher"/>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-146052-10']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+   <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">weatheredwatcher</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><?=anchor('/', 'Home');?></li>
+                            <li><?=anchor('about', 'About');?></li>
+                            <li><?=anchor('projects', 'Projects & Portfolio');?></li>
+                            <li><?=anchor('blog/', 'Blog');?></li>
+                            <li><?=anchor('speaking', 'Speaking');?></li>
+                            <li><?=anchor('contact', 'Contact');?></li>
 
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$("#twitter").getTwitter({
-					userName: "davidduggins",
-					numTweets: 3,
-					loaderText: "Loading tweets...",
-					slideIn: true,
-					slideDuration: 750,
-					showHeading: true,
-					headingText: "Latest Tweets",
-					showProfileLink: true,
-					showTimestamp: true
-				});
-			});
-		</script>
-
-<meta name="google-site-verification" content="4o679b7thPnyi9byPY6rkFqLmeT5xphjsdZWlikn6hU" />
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-11027228-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<style type="text/css">
-
-      #emurse_resume_badge_gogomonkey a {color: #3672a4;}
-      #emurse_resume_badge_gogomonkey a:hover {color: #113249;}
-      #emurse_resume_badge_gogomonkey td,#emurse_resume_badge_gogomonkey th { padding: 4px !important; }
-    </style>
-</head>
-
-<body>
-
-<!--header -->
-<div id="header-wrap"><div id="header">
-
-        <a name="top"></a>
-
-        <h1 id="logo-text"><a href="index.html" title="">weatheredwatcher</a></h1>
-	
-        <p id="slogan">creating chaos since 1981 </p>
-
-        <div  id="nav">
-                <ul>
-                        <li><?=anchor('site/', 'Home');?></li>
-                        <li><?=anchor('about', 'About');?></li>
-                        <li><?=anchor('projects', 'Projects & Portfolio');?></li>
-                        <li><?=anchor('blog/', 'Blog');?></li>
-                        <li><?=anchor('speaking', 'Speaking');?></li>
-                        <li><?=anchor('/contact', 'Contact');?></li>
-                </ul>
+            </ul>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>weatheredwatcher</h1>
+    <p class="lead">creating choas since 1981.</p>
+  </div>
+</header>
 
-   <p id="rss">
-      <a href="http://feeds.feedburner.com/Weatheredwatcher">Grab the RSS feed</a>
-   </p>
-
-  
-
-<!--/header-->
-</div></div>
-
+  <div class="container">
