@@ -4,3 +4,5 @@
 {"ts":1352386867750,"patch":[[{"diffs":[[0,"//\" "],[-1,". $_SERVER['HTTP_HOST'] . \"/\""],[0,";\n\n/"]],"start1":541,"start2":541,"length1":37,"length2":8}]],"length":12854,"saved":false}
 {"ts":1352386871719,"patch":[[{"diffs":[[0," . \"://\""],[-1," "],[0,";\n\n/*\n|-"]],"start1":536,"start2":536,"length1":17,"length2":16}]],"length":12853,"saved":false}
 {"ts":1352386996071,"patch":[[{"diffs":[[0,"TO']"],[-1," . \"://\""],[0,";\n\n/"]],"start1":532,"start2":532,"length1":16,"length2":8}]],"length":12845,"saved":false}
+{"ts":1352387215466,"patch":[[{"diffs":[[0,"_PROTO']"],[1," . "],[0,";\n\n/*\n|-"]],"start1":528,"start2":528,"length1":16,"length2":19}]],"length":12848,"saved":false}
+{"ts":1352387224011,"patch":[[{"diffs":[[0,"ation.\n|\n*/\n"],[-1,"\n"],[0,"$config['bas"]],"start1":467,"start2":467,"length1":25,"length2":24},{"diffs":[[0,"rl']"],[-1," = $_SERVER['HTTP_X_ORCHESTRA_PROTO'] . ;"],[1,"\t= '';\n"],[0,"\n\n/*"]],"start1":494,"start2":494,"length1":49,"length2":15}]],"length":12813,"saved":false}
