@@ -41,7 +41,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="js/jquery-1.3.2.js"></script>
+    <script src="js/jquery-1.3.2.min.js"></script>
     <script src="js/bootstrap.js"></script>
    
 
