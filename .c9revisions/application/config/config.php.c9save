@@ -14,3 +14,7 @@
 {"ts":1352397565817,"patch":[[{"diffs":[[0,".com/';\n"],[-1,"//"],[0,"$config["]],"start1":527,"start2":527,"length1":18,"length2":16}]],"length":12886,"saved":false}
 {"ts":1352397708988,"patch":[[{"diffs":[[0,"P_HOST']"],[1," . '"],[0,";\n/*\n|--"]],"start1":570,"start2":570,"length1":16,"length2":20}]],"length":12890,"saved":false}
 {"ts":1352397710369,"patch":[[{"diffs":[[0,"OST'] . "],[1,"'/"],[0,"';\n/*\n|-"]],"start1":573,"start2":573,"length1":16,"length2":18}]],"length":12892,"saved":false}
+{"ts":1352397771682,"patch":[[{"diffs":[[0,"url'] = "],[1,"'http"],[0,"$_SERVER"]],"start1":549,"start2":549,"length1":16,"length2":21}]],"length":12897,"saved":false}
+{"ts":1352397773505,"patch":[[{"diffs":[[0," = 'http"],[1,"://'"],[0,"$_SERVER"]],"start1":554,"start2":554,"length1":16,"length2":20}]],"length":12901,"saved":false}
+{"ts":1352397774020,"patch":[[{"diffs":[[0,"http://'"],[1," "],[0,"$_SERVER"]],"start1":558,"start2":558,"length1":16,"length2":17}]],"length":12902,"saved":false}
+{"ts":1352397775001,"patch":[[{"diffs":[[0,"http://'"],[1," ."],[0," $_SERVE"]],"start1":558,"start2":558,"length1":16,"length2":18}]],"length":12904,"saved":false}
