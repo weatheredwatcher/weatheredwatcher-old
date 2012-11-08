@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url'] = $_SERVER['HTTP_X_ORCHESTRA_PROTO'] . "://";
+$config['base_url'] = $_SERVER['HTTP_X_ORCHESTRA_PROTO'];
 
 /*
 |--------------------------------------------------------------------------
