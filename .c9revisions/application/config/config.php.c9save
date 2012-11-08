@@ -7,3 +7,8 @@
 {"ts":1352394188667,"patch":[[{"diffs":[[0,"ttp://we"],[1,"atheredwatc"],[0,"';\n//$co"]],"start1":505,"start2":505,"length1":16,"length2":27}]],"length":12893,"saved":false}
 {"ts":1352394190427,"patch":[[{"diffs":[[0,"eredwatc"],[1,"her.com/"],[0,"';\n//$co"]],"start1":516,"start2":516,"length1":16,"length2":24}]],"length":12901,"saved":false}
 {"ts":1352394192623,"patch":[[{"diffs":[[0,"n.\n|\n*/\n"],[-1,"//"],[0,"$config["]],"start1":471,"start2":471,"length1":18,"length2":16}]],"length":12899,"saved":false}
+{"ts":1352397557430,"patch":[[{"diffs":[[0,"ER['"],[1,"'"],[0,"HTTP_"],[-1,"X_ORCHESTRA_PROTO"],[1,"HOST'"],[0,"'];\n"]],"start1":563,"start2":563,"length1":30,"length2":19}]],"length":12888,"saved":false}
+{"ts":1352397559532,"patch":[[{"diffs":[[0,"TP_HOST'"],[-1,"'"],[0,"];\n/*\n|-"]],"start1":570,"start2":570,"length1":17,"length2":16}]],"length":12887,"saved":false}
+{"ts":1352397561366,"patch":[[{"diffs":[[0,"SERVER['"],[-1,"'"],[0,"HTTP_HOS"]],"start1":559,"start2":559,"length1":17,"length2":16}]],"length":12886,"saved":false}
+{"ts":1352397564861,"patch":[[{"diffs":[[0,"ation.\n|\n*/\n"],[1,"//"],[0,"$config['bas"]],"start1":467,"start2":467,"length1":24,"length2":26}]],"length":12888,"saved":false}
+{"ts":1352397565817,"patch":[[{"diffs":[[0,".com/';\n"],[-1,"//"],[0,"$config["]],"start1":527,"start2":527,"length1":18,"length2":16}]],"length":12886,"saved":false}

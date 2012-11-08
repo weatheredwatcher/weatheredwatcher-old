@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://weatheredwatcher.com/';
-//$config['base_url'] = $_SERVER['HTTP_X_ORCHESTRA_PROTO'];
+//$config['base_url']	= 'http://weatheredwatcher.com/';
+$config['base_url'] = $_SERVER['HTTP_HOST'];
 /*
 |--------------------------------------------------------------------------
 | Index File
