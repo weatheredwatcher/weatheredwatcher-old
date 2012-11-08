@@ -41,10 +41,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.3.2.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/prettify/prettify.js"></script>
-    <script>prettyPrint(); </script>
+   
 
 
 
