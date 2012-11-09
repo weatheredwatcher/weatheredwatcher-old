@@ -67,6 +67,7 @@
   <div class="container">
     <h1>weatheredwatcher</h1>
     <p class="lead">creating choas since 1981.</p>
+    <div id="quote"><p>“This must be Thursday,' said Arthur to himself, sinking low over his beer. 'I never could get the hang of Thursdays.” </p></div>
   </div>
 </header>
 

@@ -1,8 +1,7 @@
 /* Add additional stylesheets below
 -------------------------------------------------- */
 /*
-  Bootstrap's documentation styles
-  Special styles for presenting Bootstrap's documentation and examples
+  WeatheredWatcher Suplamental Styles
 */
 
 
@@ -241,7 +240,14 @@ hr.soften {
   display: none;
 }
 
+/* This is the styles for the auto quotes */
 
+#quote {
+    
+    float: right;
+    
+    
+    }
 
 /* Marketing section of Overview
 -------------------------------------------------- */
