@@ -26,7 +26,7 @@
           <li><a href="https://github.com/twitter/bootstrap/wiki">Roadmap and changelog</a></li>
         </ul>
 
-
+        <div id="quote" class="subnav"><p>“This must be Thursday,' said Arthur to himself, sinking low over his beer. 'I never could get the hang of Thursdays.” </p></div>
 
       </div>
       <div class="span3">
