@@ -5,3 +5,5 @@
 {"ts":1352663423410,"patch":[[{"diffs":[[0,"a href=\""],[1,"."],[0,"/page/<?"]],"start1":256,"start2":256,"length1":16,"length2":17}]],"length":677,"saved":false}
 {"ts":1352663424633,"patch":[[{"diffs":[[0,"ef=\""],[-1,"."],[1,"/b"],[0,"/pag"]],"start1":260,"start2":260,"length1":9,"length2":10}]],"length":678,"saved":false}
 {"ts":1352663426121,"patch":[[{"diffs":[[0,"href=\"/b"],[1,"log"],[0,"/page/<?"]],"start1":258,"start2":258,"length1":16,"length2":19}]],"length":681,"saved":false}
+{"ts":1352669674164,"patch":[[{"diffs":[[0,"->view('"],[1,"../"],[0,"_header'"]],"start1":15,"start2":15,"length1":16,"length2":19}]],"length":684,"saved":false}
+{"ts":1352669679065,"patch":[[{"diffs":[[0,"iew('../"],[1,"../"],[0,"_header'"]],"start1":18,"start2":18,"length1":16,"length2":19}]],"length":687,"saved":false}
