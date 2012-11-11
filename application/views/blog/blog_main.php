@@ -9,7 +9,7 @@
            <div id="main" class="span8">
 <?php foreach($results as $entry): ?>
 	
-	<h3><a href="/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
+	<h3><a href="/blog/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
     <i><?=$entry->timestamp; ?></i><br />
 	<?=$entry->entry; ?>
 <?php endforeach; ?>

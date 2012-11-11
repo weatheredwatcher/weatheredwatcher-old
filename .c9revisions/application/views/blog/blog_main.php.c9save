@@ -2,3 +2,6 @@
 {"contributors":[],"silentsave":true,"ts":1352213538712,"patch":[[{"diffs":[[0,"d=\"main\""],[1," class=\"span8\""],[0,">\n<?php "]],"start1":186,"start2":186,"length1":16,"length2":30}]],"length":712,"saved":false}
 {"contributors":[],"silentsave":true,"ts":1352662973506,"patch":[[{"diffs":[[0,"ef=\""],[-1,"http://www.weatheredwatcher.com"],[0,"/blo"]],"start1":260,"start2":260,"length1":39,"length2":8}]],"length":681,"saved":false}
 {"ts":1352662992744,"patch":[[{"diffs":[[0," href=\"/"],[-1,"blog/"],[0,"page/<?="]],"start1":257,"start2":257,"length1":21,"length2":16}]],"length":676,"saved":false}
+{"ts":1352663423410,"patch":[[{"diffs":[[0,"a href=\""],[1,"."],[0,"/page/<?"]],"start1":256,"start2":256,"length1":16,"length2":17}]],"length":677,"saved":false}
+{"ts":1352663424633,"patch":[[{"diffs":[[0,"ef=\""],[-1,"."],[1,"/b"],[0,"/pag"]],"start1":260,"start2":260,"length1":9,"length2":10}]],"length":678,"saved":false}
+{"ts":1352663426121,"patch":[[{"diffs":[[0,"href=\"/b"],[1,"log"],[0,"/page/<?"]],"start1":258,"start2":258,"length1":16,"length2":19}]],"length":681,"saved":false}
