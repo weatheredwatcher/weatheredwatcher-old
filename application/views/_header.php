@@ -8,9 +8,8 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <link href="css/style.css" rel="stylesheet">
+     <?=link_tag('css/bootstrap.css'); ?>
+     <?=link_tag('css/style.css'); ?>
     
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
