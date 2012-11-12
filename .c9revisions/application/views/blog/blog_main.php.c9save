@@ -7,3 +7,5 @@
 {"ts":1352663426121,"patch":[[{"diffs":[[0,"href=\"/b"],[1,"log"],[0,"/page/<?"]],"start1":258,"start2":258,"length1":16,"length2":19}]],"length":681,"saved":false}
 {"ts":1352669674164,"patch":[[{"diffs":[[0,"->view('"],[1,"../"],[0,"_header'"]],"start1":15,"start2":15,"length1":16,"length2":19}]],"length":684,"saved":false}
 {"ts":1352669679065,"patch":[[{"diffs":[[0,"iew('../"],[1,"../"],[0,"_header'"]],"start1":18,"start2":18,"length1":16,"length2":19}]],"length":687,"saved":false}
+{"ts":1352743446452,"patch":[[{"diffs":[[0,"ew('"],[-1,"../.."],[0,"/_he"]],"start1":19,"start2":19,"length1":13,"length2":8}]],"length":682,"saved":false}
+{"ts":1352743485631,"patch":[[{"diffs":[[0,"->view('"],[-1,"/"],[0,"_header'"]],"start1":15,"start2":15,"length1":17,"length2":16}]],"length":681,"saved":false}

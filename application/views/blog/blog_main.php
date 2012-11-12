@@ -1,4 +1,4 @@
-<?= $this->load->view('../../_header');?>
+<?= $this->load->view('_header');?>
 <!-- content-outer -->
 <div id="content-wrap" class="clear" >
 
