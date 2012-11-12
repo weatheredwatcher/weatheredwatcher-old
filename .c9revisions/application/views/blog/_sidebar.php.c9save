@@ -6,3 +6,4 @@
 {"ts":1352213556761,"patch":[[{"diffs":[[0,"idebar\" "],[1,"class"],[0,">\n\n    <"]],"start1":344,"start2":344,"length1":16,"length2":21}]],"length":2481,"saved":false}
 {"ts":1352213558774,"patch":[[{"diffs":[[0,"r\" class"],[1,"=\"span3"],[0,">\n\n    <"]],"start1":349,"start2":349,"length1":16,"length2":23}]],"length":2488,"saved":false}
 {"ts":1352213561574,"patch":[[{"diffs":[[0,"s=\"span3"],[1,"\""],[0,">\n\n    <"]],"start1":356,"start2":356,"length1":16,"length2":17}]],"length":2489,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1352741472077,"patch":[[{"diffs":[[0,"//www.no"],[-1,"n"],[0,"one.org/"]],"start1":1227,"start2":1227,"length1":17,"length2":16}]],"length":2488,"saved":false}

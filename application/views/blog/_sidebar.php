@@ -34,7 +34,7 @@
                                     <li><a href="http://jedschneider.posterous.com/" title="Jed Schneider">Jed Schneider <br />
                     <span>crashland, again</span></a>
                 </li>
-                                    <li><a href="http://www.nonone.org/blog" title="Abe">Blogging is Futile <br /></a>
+                                    <li><a href="http://www.noone.org/blog" title="Abe">Blogging is Futile <br /></a>
                 </li>
                                     <li><a href="http://amayita.livejournal.com/" title="Amayita">If I can't Dance to it, it's Not My Revolution <br />
                     <span>The Girl named after a Web Browser</span></a>
