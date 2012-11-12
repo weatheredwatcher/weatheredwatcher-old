@@ -20,7 +20,7 @@ $message_data = array(
    <div id="content">
 
         <!-- main -->
-           <div id="main">
+           <div id="main" class="span8">
            
 <?=form_open('contact/send_email'); ?>
 <?=form_label('From:', 'from'); ?> 
