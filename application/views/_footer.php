@@ -30,7 +30,7 @@
 
       </div>
       <div class="span3">
-        <img src="img/footer_logo.jpg" alt="weatheredwatcher!" />
+        <?=img("img/footer_logo.jpg"); ?>
       </div>
       </div>
     </footer>
