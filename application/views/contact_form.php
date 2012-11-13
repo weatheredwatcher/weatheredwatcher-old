@@ -18,7 +18,7 @@ $message_data = array(
 
         <!-- content -->
    <div id="content">
-
+    <h3>Contact Us </h3>
         <!-- main -->
            <div id="main" class="span8">
            
