@@ -5836,5 +5836,10 @@ button.close {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
+    
+    
   }
+  #sidebar{
+      display: none;
+      }
 }
