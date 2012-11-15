@@ -36,7 +36,7 @@ class WebDriverDemoShootout extends Sauce\Sausage\WebDriverTestCase
         $this->byName('password')->value($password);
         $this->byCss('input.login')->click();
 
-        $this->assertTextPresent("Logged in successfully", $this->byId('message'));
+        $this->assertTextPresent("Logged in successfully", $this->byId('main'));
     }
 
     protected function doLogout()
