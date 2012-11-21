@@ -26,7 +26,7 @@
           <li><a href="https://github.com/weatheredwatcher/weatheredwatcher/issues?state=open">Submit issues</a></li>
           <li><a href="https://github.com/weatheredwatcher/weatheredwatcher/wiki">Roadmap and changelog</a></li>
         </ul>
-
+        <?=img('img/built-in-the-clouds.png'); ?>
         <div id="quote" class="subnav"><p>“This must be Thursday,' said Arthur to himself, sinking low over his beer. 'I never could get the hang of Thursdays.” </p></div>
 
       </div>
