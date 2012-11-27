@@ -19,12 +19,12 @@ class Blog extends CI_Controller {
 	        $config["total_rows"] = $this->blog->record_count();
 	        $config["per_page"] = 10;
 	        $config["uri_segment"] = 2;
-	        $config['full_tag_open'] = '<div class="pagination">';
-            $config['full_tag_close'] = '</div>';
-            $config['cur_tag_open']  = '<p class="active">';
-            $config['cur_tag_close'] = '</p>';
-            $config['num_tag_open'] = '<p>';
-            $config['num_tag_close'] = '</p>';
+	        $config['full_tag_open'] = '<div class="pagination"><ul>';
+            $config['full_tag_close'] = '</ul></div>';
+            $config['cur_tag_open']  = '<li class="active">';
+            $config['cur_tag_close'] = '</li>';
+            $config['num_tag_open'] = '<li>';
+            $config['num_tag_close'] = '</li>';
 	        
             $this->pagination->initialize($config);
 	 
