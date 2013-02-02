@@ -13,8 +13,9 @@
 			   <?=img('img/scrapbook3.jpg');?>
 			   <?=img('img/scrapbook4.jpg');?>
 			   </div>
+               <br />
 			  <p>
-Hey!  Welcome to my own little home on the web.  </p>
+Hey!  Welcome to my own little home on the web.    </p>
 
         <!-- /main -->
                 </div>
