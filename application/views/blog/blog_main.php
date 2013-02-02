@@ -11,7 +11,8 @@
 	
 	<h3><a href="/blog/page/<?=$entry->slug;?>"><?=$entry->title; ?></a></h3>
     <i><?=$entry->timestamp; ?></i><br />
-	<?=$entry->entry; ?>
+
+	<?=parse_markdown($entry->entry); ?>
 <?php endforeach; ?>
 <br />
 <?=$links?>

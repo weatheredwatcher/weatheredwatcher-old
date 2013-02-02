@@ -48,7 +48,10 @@
 
                     </div>
                     <div>
-    <a href="http://get.fedoraproject.org/"><img src="https://fedoraproject.org/static/images/banners/f17release.png" alt="Fedora"></a>
+    <a href="http://debian.org/"><?=img('img/debian.png'); ?></a>
+    <a href="http://www.catb.org/hacker-emblem/"><?=img('img/hacker.png'); ?></a><br />
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/"><?=img('img/cc-license_80x15.png'); ?></a>
+    
     </div>
 <div id="twitter"></div>
      <div class="popular">

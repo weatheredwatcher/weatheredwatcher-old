@@ -5,6 +5,8 @@ class Blog extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->spark('markdown/1.2.0');
+    
 	}
 		
 	function index()

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <title>WeatheredWatcher :: Admin</title>
-<?= link_tag('stylesheets/admin.css'); ?>
+<?= link_tag('css/admin.css'); ?>
 </head>
 
 <body>
