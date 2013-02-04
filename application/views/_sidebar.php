@@ -10,7 +10,5 @@
 	<div>
         <iframe src="http://githubbadge.appspot.com/badge/weatheredwatcher?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
 	</div>
-    </div>
-    <a href='https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function' title='JavaScript Function .toString'><img src='http://static.jsconf.us/promotejsv.gif' height='280' width='160' alt='JavaScript Function .toString'/></a>
-	<div>
+    
 </div>
