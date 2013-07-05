@@ -10,7 +10,7 @@
 <?php foreach($entries as $entry): ?>
 	
 	<h3><?=$entry->title; ?></h3>
-	<?=$entry->entry; ?>
+	<?=parse_markdown($entry->entry); ?>
 <?php endforeach; ?>
   <div id="disqus_thread"></div>
         <script type="text/javascript">

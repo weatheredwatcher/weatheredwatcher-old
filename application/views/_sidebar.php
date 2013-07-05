@@ -11,6 +11,6 @@
         <iframe src="http://githubbadge.appspot.com/badge/weatheredwatcher?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
 	</div>
     <div>
-    <a href="http://opensourcebridge.org/?ref=submit125"><img src="http://opensourcebridge.org/badges/2013/submit125.png" alt="I'm submitting a talk to Open Source Bridge - June 18–21, 2013 - Portland, OR" border="0" /></a>
+    <a href="http://www.northeastphp.org"><img src="http://www.northeastphp.org/boston_conference/img/logo.png" alt="I'm Speaking at NEPHP Conference, Bostonaf " border="0" /></a>
     </div>
 </div>

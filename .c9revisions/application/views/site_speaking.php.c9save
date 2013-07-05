@@ -3,3 +3,22 @@
 {"contributors":[],"silentsave":true,"ts":1352213129636,"patch":[[{"diffs":[[0,"d=\"main\""],[1," class=\"span8\""],[0,">\n\t\t\t<h3"]],"start1":186,"start2":186,"length1":16,"length2":30}]],"length":2006,"saved":false}
 {"contributors":[],"silentsave":true,"ts":1352213728320,"patch":[[{"diffs":[[0,"\n\t\t\t"],[-1,"<h3>Speaking</h3>"],[0,"\n\n\t\t"]],"start1":209,"start2":209,"length1":25,"length2":8}]],"length":1989,"saved":false}
 {"ts":1352213730686,"patch":[[{"diffs":[[0,"ntent\">\n"],[1,"<h3>Speaking</h3>"],[0,"\n       "]],"start1":138,"start2":138,"length1":16,"length2":33}]],"length":2006,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1370492982115,"patch":[[{"diffs":[[0,"es</a>\n</p>\n"],[1,"<p\n"],[0,"<h3>User Gro"]],"start1":1451,"start2":1451,"length1":24,"length2":27}]],"length":2009,"saved":false}
+{"ts":1370492983273,"patch":[[{"diffs":[[0,"\n</p>\n<p"],[1,">\n"],[0,"\n<h3>Use"]],"start1":1457,"start2":1457,"length1":16,"length2":18}]],"length":2011,"saved":false}
+{"ts":1370492987701,"patch":[[{"diffs":[[0,"/p>\n<p>\n"],[1," "],[0,"\n<h3>Use"]],"start1":1459,"start2":1459,"length1":16,"length2":17}]],"length":2012,"saved":false}
+{"ts":1370492990259,"patch":[[{"diffs":[[0,"</p>\n<p>"],[1," "],[0,"\n \n<h3>U"]],"start1":1458,"start2":1458,"length1":16,"length2":17}]],"length":2013,"saved":false}
+{"ts":1370492992004,"patch":[[{"diffs":[[0,"/p>\n<p> "],[1,"In "],[0,"\n \n<h3>U"]],"start1":1459,"start2":1459,"length1":16,"length2":19}]],"length":2016,"saved":false}
+{"ts":1370492994908,"patch":[[{"diffs":[[0,"/p>\n<p> "],[-1,"In "],[0,"\n \n<h3>U"]],"start1":1459,"start2":1459,"length1":19,"length2":16}]],"length":2013,"saved":false}
+{"ts":1370492998037,"patch":[[{"diffs":[[0,"/p>\n<p> "],[1,"I will be retur"],[0,"\n \n<h3>U"]],"start1":1459,"start2":1459,"length1":16,"length2":31}]],"length":2028,"saved":false}
+{"ts":1370493003410,"patch":[[{"diffs":[[0,"be retur"],[1,"ning to the North"],[0,"\n \n<h3>U"]],"start1":1474,"start2":1474,"length1":16,"length2":33}]],"length":2045,"saved":false}
+{"ts":1370493004422,"patch":[[{"diffs":[[0,"he North"],[1,"e"],[0,"\n \n<h3>U"]],"start1":1491,"start2":1491,"length1":16,"length2":17}]],"length":2046,"saved":false}
+{"ts":1370493006449,"patch":[[{"diffs":[[0,"e Northe"],[1,"astern PHP"],[0,"\n \n<h3>U"]],"start1":1492,"start2":1492,"length1":16,"length2":26}]],"length":2056,"saved":false}
+{"ts":1370493009223,"patch":[[{"diffs":[[0,"tern PHP"],[1," Conference th"],[0,"\n \n<h3>U"]],"start1":1502,"start2":1502,"length1":16,"length2":30}]],"length":2070,"saved":false}
+{"ts":1370493011716,"patch":[[{"diffs":[[0,"rence th"],[1,"is August w"],[0,"\n \n<h3>U"]],"start1":1516,"start2":1516,"length1":16,"length2":27}]],"length":2081,"saved":false}
+{"ts":1370493013928,"patch":[[{"diffs":[[0,"August w"],[1,"here I will"],[0,"\n \n<h3>U"]],"start1":1527,"start2":1527,"length1":16,"length2":27}]],"length":2092,"saved":false}
+{"ts":1370493017827,"patch":[[{"diffs":[[0,"e I will"],[1," be giving a talk on "],[0,"\n \n<h3>U"]],"start1":1538,"start2":1538,"length1":16,"length2":37}]],"length":2113,"saved":false}
+{"ts":1370493023268,"patch":[[{"diffs":[[0,"talk on "],[1,"dev"],[0,"\n \n<h3>U"]],"start1":1559,"start2":1559,"length1":16,"length2":19}]],"length":2116,"saved":false}
+{"ts":1370493027346,"patch":[[{"diffs":[[0,"k on dev"],[1,"elopment tools in the clou"],[0,"\n \n<h3>U"]],"start1":1562,"start2":1562,"length1":16,"length2":42}]],"length":2142,"saved":false}
+{"ts":1370493028808,"patch":[[{"diffs":[[0,"the clou"],[1,"d."],[0,"\n \n<h3>U"]],"start1":1588,"start2":1588,"length1":16,"length2":18}]],"length":2144,"saved":false}
+{"ts":1370493032569,"patch":[[{"diffs":[[0,"e cloud."],[1,"</p"],[0,"\n \n<h3>U"]],"start1":1590,"start2":1590,"length1":16,"length2":19}]],"length":2147,"saved":false}
+{"ts":1370493033765,"patch":[[{"diffs":[[0,"loud.</p"],[1,">"],[0,"\n \n<h3>U"]],"start1":1593,"start2":1593,"length1":16,"length2":17}]],"length":2148,"saved":false}

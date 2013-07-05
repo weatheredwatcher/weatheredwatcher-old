@@ -25,6 +25,8 @@
   <a href="http://weatheredwatcher.com/downloads/NEPHP.tar.7z">Source Code</a><br />
   <a href="http://weatheredwatcher.com/downloads/coding_a_basic_blog_with_codigniter.odp">Slides</a>
 </p>
+<p> I will be returning to the Northeastern PHP Conference this August where I will be giving a talk on development tools in the cloud.</p>
+ 
 <h3>User Groups</h3>
 <p> I occasionally speak at various user groups on php, security, linux, and programming in general.</p>
 <h3> Articles </h3>
