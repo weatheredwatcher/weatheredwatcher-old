@@ -9,7 +9,7 @@
     <title><?=$entry->title; ?></title>
     <link>http://www.weatheredwatcher.com/blog/<?=$entry->slug; ?></link>
 
-    <description><![CDATA[<?=$entry->entry; ?> ]]></description>
+    <description><![CDATA[<?=parse_markdown($entry->entry); ?> ]]></description>
     <pubDate><?=$entry->timestamp; ?></pubDate>
             
         </item>
